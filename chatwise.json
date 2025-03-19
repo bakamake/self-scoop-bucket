@@ -17,6 +17,7 @@
       "chatwise"
     ]
   ],
+  "bin": [],
   "checkver": {
     "github": "https://github.com/egoist/chatwise-releases"
   },
