@@ -1,0 +1,26 @@
+{
+  "version": "v0.8.7",
+  "description": "The second fastest AI chatbot™",
+  "homepage": "https://chatwise.app/",
+  "license": {
+    "identifier": "Unknown"
+  },
+  "url": "https://github.com/egoist/chatwise-releases/releases/download/v0.8.7/ChatWise_0.8.7_x64-setup.exe#/dl.7z",
+  "installer": {
+    "script": [
+      "Get-ChildItem -Path  \"$dir\\`$PLUGINSDIR\" -Recurse -Exclude uninstall.exe,chatwise.exe | Remove-Item -Recurse -Force"
+    ]
+  },
+  "shortcuts": [
+    [
+      "chatwise.exe",
+      "chatwise"
+    ]
+  ],
+  "checkver": {
+    "github": "https://github.com/egoist/chatwise-releases"
+  },
+  "autoupdate": {
+    "url": "https://github.com/egoist/chatwise-releases/releases/download/v$version/ChatWise_$version_x64-setup.exe#/dl.7z"
+  }
+}
