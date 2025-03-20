@@ -1,28 +1,29 @@
 {
-  "version": "v0.8.7",
-  "description": "The second fastest AI chatbot™",
   "homepage": "https://chatwise.app/",
-  "license": {
-    "identifier": "Unknown"
+  "description": "Fast AI Chatbot for any LLM",
+  "version": "0.8.7",
+  "license": "Proprietary",
+  "architecture": {
+      "64bit": {
+          "url": "https://github.com/egoist/chatwise-releases/releases/download/v0.8.7/ChatWise_0.8.7_x64-setup.exe#/dl.7z",
+          "hash": "65270f03a71b29f05b05f20f4cbfaee28cfee343577b8ccecf902401b7fadb55"
+      }
   },
-  "url": "https://github.com/egoist/chatwise-releases/releases/download/v0.8.7/ChatWise_0.8.7_x64-setup.exe#/dl.7z",
-  "installer": {
-    "script": [
-      "Get-ChildItem -Path  \"$dir\\`$PLUGINSDIR\" -Recurse -Exclude uninstall.exe,chatwise.exe | Remove-Item -Recurse -Force"
-    ]
+  "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\",\"$dir\\Uninst*\" -Force -Recurse -ErrorAction SilentlyContinue",
+  "checkver": {
+      "github": "https://github.com/egoist/chatwise-releases"
   },
   "shortcuts": [
-    [
-      "chatwise.exe",
-      "chatwise"
-    ]
+      [
+          "chatwise.exe",
+          "ChatWise"
+      ]
   ],
-  "bin": [],
-  "checkver": {
-    "url": "https://github.com/egoist/chatwise-releases/releases",
-    "regex": "v\\d+\\.\\d+\\.\\d+"
-  },
   "autoupdate": {
-    "url": "https://github.com/egoist/chatwise-releases/releases/download/v$version/ChatWise_$version_x64-setup.exe#/dl.7z"
+      "architecture": {
+          "64bit": {
+              "url": "https://github.com/egoist/chatwise-releases/releases/download/v$version/ChatWise_$version_x64-setup.exe#/dl.7z"
+          }
+      }
   }
 }
