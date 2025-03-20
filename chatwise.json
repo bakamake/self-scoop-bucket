@@ -19,7 +19,8 @@
   ],
   "bin": [],
   "checkver": {
-    "github": "https://github.com/egoist/chatwise-releases"
+    "url": "https://github.com/egoist/chatwise-releases/releases",
+    "regex": "ChatWise_v([\\d.]+)_x64-setup.exe"
   },
   "autoupdate": {
     "url": "https://github.com/egoist/chatwise-releases/releases/download/v$version/ChatWise_$version_x64-setup.exe#/dl.7z"
