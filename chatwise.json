@@ -1,5 +1,5 @@
 {
-  "version": "v0.8.8",
+  "version": "v0.8.7",
   "description": "The second fastest AI chatbot™",
   "homepage": "https://chatwise.app/",
   "license": {
@@ -20,7 +20,7 @@
   "bin": [],
   "checkver": {
     "url": "https://github.com/egoist/chatwise-releases/releases",
-    "regex": "ChatWise_v([\\d.]+)_x64-setup.exe"
+    "regex": "v([\\d.]+)"
   },
   "autoupdate": {
     "url": "https://github.com/egoist/chatwise-releases/releases/download/v$version/ChatWise_$version_x64-setup.exe#/dl.7z"
