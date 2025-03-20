@@ -20,7 +20,7 @@
   "bin": [],
   "checkver": {
     "url": "https://github.com/egoist/chatwise-releases/releases",
-    "regex": "v([\\d.]+)"
+    "regex": "v\\d+\\.\\d+\\.\\d+"
   },
   "autoupdate": {
     "url": "https://github.com/egoist/chatwise-releases/releases/download/v$version/ChatWise_$version_x64-setup.exe#/dl.7z"
