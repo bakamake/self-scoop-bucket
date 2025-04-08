@@ -1,0 +1,9 @@
+{
+    "version": "4.3.2",
+    "description": "Ente Authentication",
+    "homepage": "https://ente.io",
+    "license": "Proprietary",
+    "url": "https://github.com/ente-io/ente/releases/download/auth-v4.3.2/ente-auth-v4.3.2-installer.exe",
+    "innosetup": "true"
+}
+
