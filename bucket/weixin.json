@@ -7,14 +7,17 @@
     },
     "url": "https://dldir1v6.qq.com/weixin/Universal/Windows/WeChatWin.exe#/dl.7z",
     "pre_install": [
-        "Remove-Item -Recurse -Force \"$PLUGINSDIR\" -ErrorAction SilentlyContinue",
+        "Remove-Item -Recurse -Force \"$dir\\$PLUGINSDIR\" -ErrorAction SilentlyContinue",
         "Expand-7ZipArchive \"$dir\\install.7z\" \"$dir\""
     ],
-    "bin": "Weixin.exe",
+    "post_install": [
+        "Remove-Item -Force \"$dir\\install.7z\" -ErrorAction SilentlyContinue"
+    ],
+    "bin": "WeChat.exe",
     "shortcuts": [
         [
-            "Weixin.exe",
-            "Weixin"
+            "WeChat.exe",
+            "WeChat"
         ]
     ]
 }
