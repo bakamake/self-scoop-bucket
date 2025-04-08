@@ -9,6 +9,9 @@
     "pre_install": [
         "Expand-7ZipArchive \"$dir\\install.7z\" \"$dir\""
     ],
+    "post_install": [
+	"Remove-Item -Path \"$dir\\$PLUGINSDIR\" -Recurse"
+    ],
     "bin": "Weixin.exe",
     "shortcuts": [
         [
