@@ -1,0 +1,21 @@
+{
+    "version": "latest",
+    "description": "WeChat for Windows",
+    "homepage": "https://weixin.qq.com/",
+    "license": {
+        "identifier": "Proprietary"
+    },
+    "url": "https://dldir1v6.qq.com/weixin/Universal/Windows/WeChatWin.exe#/dl.7z",
+    "pre_install": [
+        "Remove-Item -Recurse -Force \"$PLUGINSDIR\" -ErrorAction SilentlyContinue",
+        "Expand-7ZipArchive \"$dir\\install.7z\" \"$dir\""
+    ],
+    "bin": "Weixin.exe",
+    "shortcuts": [
+        [
+            "Weixin.exe",
+            "Weixin"
+        ]
+    ]
+}
+
