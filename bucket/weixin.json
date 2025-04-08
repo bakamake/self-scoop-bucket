@@ -10,9 +10,6 @@
         "Remove-Item -Recurse -Force \"$dir\\$PLUGINSDIR\"",
         "Expand-7ZipArchive \"$dir\\install.7z\" \"$dir\""
     ],
-    "post_install": [
-        "Remove-Item -Force \"$dir\\install.7z\" "
-    ],
     "bin": "Weixin.exe",
     "shortcuts": [
         [
