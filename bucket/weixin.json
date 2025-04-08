@@ -10,7 +10,7 @@
         "Expand-7ZipArchive \"$dir\\install.7z\" \"$dir\""
     ],
     "post_install": [
-	"Remove-Item -Path \"$dir\\\\$PLUGINSDIR\" -Recurse",
+	"Remove-Item -Path \"$dir\\`$PLUGINSDIR\" -Recurse",
 	"Remove-Item -Path  \"$dir\\install.7z\"  "
     ],
     "bin": "Weixin.exe",
