@@ -1,5 +1,7 @@
 {
     "version": "2.1.12",
-    "url": "https://downloadfiles.pdfgear.com/releases/windows/pdfgear_setup_v2.1.12.exe #7z"
+    "url": "https://downloadfiles.pdfgear.com/releases/windows/pdfgear_setup_v2.1.12.exe",
+    "innosetup": "true"
+    
 }
 
