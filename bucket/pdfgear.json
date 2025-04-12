@@ -9,5 +9,11 @@
     "autoupdate": {
         "version": "$version",
         "url": "https://downloadfiles.pdfgear.com/releases/windows/pdfgear_setup_v$version.exe"
-    }
+    },
+    "shortcuts": [
+        [
+            "PDFLauncher.exe",
+            "PDFgear"
+        ]
+
 }
