@@ -25,5 +25,11 @@
             }
         }
         },
-    "innosetup": "true"
+    "innosetup": "true",
+    "shortcuts": [
+        [
+            "auth.exe",
+            "ente"
+        ]
+    ]
 }
