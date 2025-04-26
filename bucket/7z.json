@@ -1,0 +1,33 @@
+{
+    "version": "24.09",
+    "description": "A multi-format file archiver with high compression ratios",
+    "homepage": "https://www.7-zip.org/",
+    "license": "LGPL-2.1-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://www.7-zip.org/a/7z2409-x64.msi",
+            "hash": "ec6af1ea0367d16dde6639a89a080a524cebc4d4bedfe00ed0cac4b865a918d8",
+            "extract_dir": "Files\\7-Zip"
+        }
+    },
+    "bin": [
+        "7z.exe",
+        "7zFM.exe",
+        "7zG.exe"
+    ],
+    "persist": [
+	"Codecs",
+        "Formats"
+    ],
+    "checkver": {
+        "url": "https://www.7-zip.org/download.html",
+        "regex": "Download 7-Zip ([\\d.]+) \\(\\d{4}-\\d{2}-\\d{2}\\)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.7-zip.org/a/7z$cleanVersion-x64.msi"
+            }
+        }
+    }
+}
