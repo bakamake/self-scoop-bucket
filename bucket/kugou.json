@@ -21,6 +21,10 @@
             "KuGou"
         ]
     ],
+    "persist": [
+	"Lyric",
+        "Download"
+    ],
     "checkver": {
         "url": "https://download.kugou.com/",
         "regex": "V([\\d.]+)"
