@@ -18,7 +18,8 @@
     "Formats"
     ],
     "post_install": [
-    	"Remove-Item -Path \"$dir\\7zFM.exe\",  \"$dir\\7zG.exe\" "
+    	"Remove-Item -Path \"$dir\\7zFM.exe\",  \"$dir\\7zG.exe\" ",
+    	"Remove-Item -Path \"$dir\\Lang\" -Recurse -Force"
     ],
     "checkver": {
         "url": "https://www.7-zip.org/download.html",
