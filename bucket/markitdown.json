@@ -3,5 +3,8 @@
 	  "depends": ["uv"],
 	  "url": "https://github.com/microsoft/markitdown/archive/refs/tags/v0.1.1.tar.gz",
 	  "bin": [["uv.exe", "markitdown", "markitdown"]],
-	  "post_install": ["uv venv"]
+	  "post_install": [
+	  "cd $dir",
+	  "uv venv"
+	  ]
 }
