@@ -1,0 +1,8 @@
+{
+	  "version": "0.1.1",
+	  "depends": [uv,python],
+	  "url": "https://github.com/microsoft/markitdown/archive/refs/tags/v0.1.1.tar.gz",
+	  "bin": [["uv.exe", "markitdown", "markitdown"]],
+	  "post_install": [uv]
+	        }
+}
