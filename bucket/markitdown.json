@@ -5,6 +5,6 @@
 	  "bin": [["uv.exe", "markitdown", "markitdown"]],
 	  "post_install": [
 	  "Start-Process -FilePath \"uv.exe\" -ArgumentList \"venv\" -WorkingDirectory \"$dir\\markitdown-$version\" -NoNewWindow -wait ",
-	  "Start-Process -FilePath \"uv.exe\" -ArgumentList \" pip install -e 'packages/markitdown[all]'\" -WorkingDirectory \"$dir\\markitdown-$version\" -NoNewWindow -wait"
+	  "Start-Process -FilePath \"uv.exe\" -ArgumentList \"pip install -e 'packages\\markitdown[all]'\" -WorkingDirectory \"$dir\\markitdown-$version\" -NoNewWindow -wait"
 	  	  ]
 }
