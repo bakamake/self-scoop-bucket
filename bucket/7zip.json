@@ -13,10 +13,6 @@
     "bin": [
         "7z.exe",
     ],
-    "persist": [
-	"Codecs",
-    "Formats"
-    ],
     "post_install": [
     	"Remove-Item -Path \"$dir\\7zFM.exe\",  \"$dir\\7zG.exe\" ",
     	"Remove-Item -Path \"$dir\\Lang\" -Recurse -Force"
