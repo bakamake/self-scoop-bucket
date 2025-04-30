@@ -4,7 +4,7 @@
 	  "url": "https://github.com/microsoft/markitdown/archive/refs/tags/v0.1.1.tar.gz",
 	  "bin": [["uv.exe", "markitdown", "markitdown"]],
 	  "installer": [
-	  "Move-Item -Path \"$dir/markitdown-$version/*\" -Destination \"$dir/\" -Force "
+	  "Move-Item -Path \"$dir\\markitdown-$version\\*\" -Destination \"$dir\\\" -Force "
 	  ],
 	  "post_install": [
 	  "Start-Process -FilePath \"uv.exe\" -ArgumentList \"venv\" -WorkingDirectory \"$dir\" -NoNewWindow -wait ",
