@@ -2,6 +2,7 @@
 	  "version": "0.1.1",
 	  "depends": ["uv"],
 	  "url": "https://github.com/microsoft/markitdown/archive/refs/tags/v0.1.1.tar.gz",
+	  "extract_dir": "markitdown-0.1.1",
 	  "bin": [["uv.exe", "markitdown", "markitdown"]],
 	  "installer": [
 	  "Move-Item -Path \"$dir\\markitdown-$version\\*\" -Destination \"$dir\\\" -Force "
