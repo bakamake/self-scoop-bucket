@@ -7,13 +7,13 @@
     "hash": "",
     "bin": [
       [
-        "SubsCheck_Win_GUI.exe",
+        "subs-check.win.gui.exe",
         "subscheck"
       ]
     ],
     "shortcuts": [
       [
-        "SubsCheck_Win_GUI.exe",
+        "subs-check.win.gui.exe",
         "SubsCheck"
       ]
     ],
