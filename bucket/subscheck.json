@@ -5,7 +5,6 @@
     "license": "Unknown",
     "url": "https://github.com/cmliu/SubsCheck-Win-GUI/releases/download/v2.0.1.7/SubsCheck_Win_GUI.zip",
     "hash": "",
-    "extract_dir": "SubsCheck_Win_GUI",
     "bin": [
       [
         "SubsCheck_Win_GUI.exe",
