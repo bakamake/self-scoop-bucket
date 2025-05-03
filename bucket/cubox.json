@@ -6,7 +6,9 @@
     "url": "https://cubox.pro/download/latesthelper/Cubox-Windows.zip",
     "installer": {
     "script": [
-        "Invoke-ExternalCommand lessmsi -ArgumentList @('x', \"$dir\\Cubox_0.2.6_x64_zh-CN.msi\", \"$dir\\\") | Out-Null"
+        "Invoke-ExternalCommand lessmsi -ArgumentList @('x', \"$dir\\Cubox_0.2.6_x64_zh-CN.msi\", \"$dir\\\") | Out-Null",
+        "Copy-Item \"$dir\\SourceDir\\PFiles\\Cubox\\*\" \"$dir\" -Force -Recurse | Out-Null",
+        "Remove-Item \"$dir\\SourceDir\" -Force -Recurse | Out-Null"
     ]
 }
 }
