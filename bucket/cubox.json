@@ -4,6 +4,7 @@
     "homepage": "https://cubox.pro/",
     "license": "Proprietary",
     "url": "https://cubox.pro/download/latesthelper/Cubox-Windows.zip",
+    "depend": "lessmsi",
     "installer": {
     "script": [
         "Invoke-ExternalCommand lessmsi -ArgumentList @('x', \"$dir\\Cubox_0.2.6_x64_zh-CN.msi\", \"$dir\\\") | Out-Null",
