@@ -3,5 +3,6 @@
     "description": "Cubox - A powerful tool for collecting and organizing web content (Windows).",
     "homepage": "https://cubox.pro/",
     "license": "Proprietary",
-    "url": "https://cubox.pro/download/latesthelper/Cubox-Windows.zip"
+    "url": "https://cubox.pro/download/latesthelper/Cubox-Windows.zip",
+    "Installer": "lessmsi x *.msi $dir"
 }
