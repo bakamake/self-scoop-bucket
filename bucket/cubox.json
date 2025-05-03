@@ -7,7 +7,7 @@
     "installer": {
     "script": [
         "$msiPath = (Get-ChildItem -Path . -Filter *.exe -Recurse -File).DirectoryName",
-        "Invoke-ExternalCommand lessmsi -ArgumentList @('x', \"$msiPath\\Cubox_$version-CN.msi\", \"$dir\\cubox.exe\") | Out-Null"
+        "Invoke-ExternalCommand lessmsi -ArgumentList @('x', \"$msiPath\\Cubox_0.2.6-CN.msi\", \"$dir\\cubox.exe\") | Out-Null"
     ]
 }
 }
