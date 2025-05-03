@@ -11,10 +11,9 @@
         "Remove-Item \"$dir\\SourceDir\" -Force -Recurse | Out-Null"
     ]
 },
-"shortcuts": [
-    [
-        "Cubox.exe",
-        "Cubox"
-    ]
-]
+"shortcuts": [[
+    "Cubox.exe",
+    "Cubox"
+    ]],
+"bin": ["Cubox.exe"]
 }
