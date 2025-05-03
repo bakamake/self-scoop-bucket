@@ -5,12 +5,10 @@
     "license": "MIT",
     "url": "https://github.com/microsoft/markitdown/archive/refs/tags/v0.1.1.zip",
     "extract_dir": "markitdown-0.1.1/packages/markitdown",
-	"pre_install": {
-       "script":  "Start-Process -FilePath \"cmd.exe\" -ArgumentList \"/c uv venv\" -WindowStyle Hidden -Wait -WorkingDirectory \"$dir\""
-    },
-    "installer": {
-        "script": "Start-Process -FilePath \"cmd.exe\" -ArgumentList \"/c uv pip install -e .[all] \" -WindowStyle Hidden -Wait -WorkingDirectory \"$dir\""
-    },
+    "installer": [
+        "Start-Process -FilePath \"cmd.exe\" -ArgumentList \"/c uv venv\" -WindowStyle Hidden -Wait -WorkingDirectory \"$dir\"",
+        "Start-Process -FilePath \"cmd.exe\" -ArgumentList \"/c uv pip install -e .[all] \" -WindowStyle Hidden -Wait -WorkingDirectory \"$dir\""
+    ],
 	"bin": [["uv.exe", "markitdown"]],
     "checkver": {
         "github": "https://github.com/microsoft/markitdown"
