@@ -3,16 +3,15 @@
     "description": "Python tool for converting files and office documents to Markdown.",
     "homepage": "https://github.com/microsoft/markitdown",
     "license": "MIT",
-    "depends": "uv",
     "url": "https://github.com/microsoft/markitdown/archive/refs/tags/v0.1.1.zip",
     "extract_dir": "markitdown-0.1.1/packages/markitdown",
 	"pre_install": {
-		"script": "uv venv"
-	},
-    "installer": {
-        "script": "uv pip install -e .[all] "
+       "script":  "Start-Process -FilePath \"cmd.exe\" -ArgumentList \"/c uv venv\" -WindowStyle Hidden -Wait -WorkingDirectory \"$dir\""
     },
-	"bin": [["uv.exe", "markitdown", "markitdown"]],
+    "installer": {
+        "script": "Start-Process -FilePath \"cmd.exe\" -ArgumentList \"/c uv pip install -e .[all] \" -WindowStyle Hidden -Wait -WorkingDirectory \"$dir\""
+    },
+	"bin": [["uv.exe", "markitdown"]],
     "checkver": {
         "github": "https://github.com/microsoft/markitdown"
     },
