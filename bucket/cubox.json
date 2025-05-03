@@ -6,7 +6,8 @@
     "url": "https://cubox.pro/download/latesthelper/Cubox-Windows.zip",
     "installer": {
     "script": [
-        "& lessmsi x Cubox_$version-CN.msi $PWD"
+        "$msiPath = (Get-ChildItem -Path . -Filter *.exe -Recurse -File).DirectoryName",
+        "& lessmsi x $msiPath $dir" 
     ]
 }
 }
