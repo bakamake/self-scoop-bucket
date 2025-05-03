@@ -10,5 +10,11 @@
         "Copy-Item \"$dir\\SourceDir\\PFiles\\Cubox\\*\" \"$dir\" -Force -Recurse | Out-Null",
         "Remove-Item \"$dir\\SourceDir\" -Force -Recurse | Out-Null"
     ]
-}
+},
+"shortcuts": [
+    [
+        "Cubox.exe",
+        "Cubox"
+    ]
+]
 }
