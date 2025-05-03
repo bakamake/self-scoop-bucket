@@ -1,0 +1,35 @@
+{
+    "version": "1.10.8",
+    "description": "A minimal Markdown editor and reader",
+    "homepage": "https://typora.io",
+    "license": {
+        "identifier": "Proprietary",
+        "url": "https://support.typora.io/License-Agreement/"
+    },
+    "notes": "For old beta version, install: versions/typora0.11.18",
+    "architecture": {
+        "64bit": {
+            "url": "https://download.typora.io/windows/typora-setup-x64-1.10.8.exe",
+            "hash": "58fb7a2c98fdd2b044ed2b8cceba0770c0dc11156c89f961714a79d92b8b98ab"
+        }
+    },
+    "innosetup": true,
+    "bin": "Typora.exe",
+    "shortcuts": [
+        [
+            "Typora.exe",
+            "Typora"
+        ]
+    ],
+    "checkver": {
+        "url": "https://typora.io/releases/stable",
+        "regex": "<h2>([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://download.typora.io/windows/typora-setup-x64-$version.exe"
+            }
+        }
+    }
+}
