@@ -6,7 +6,7 @@
     "url": "https://cdn.stardock.us/downloads/public/software/groupy/Groupy2_setup.exe",
 "installer": {
 	    "script": [
-	        "Start-Process -FilePath \"$dir\\setup.exe\" -Wait -NoNewWindow"
+        "Start-Process -FilePath \"$dir\\Groupy2_setup.exe\" -ArgumentList \"/SILENT\", \"/NORESTART\" -Wait -NoNewWindow"
 	    ]
 },
     "bin": "Groupy2.exe",
