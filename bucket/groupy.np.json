@@ -1,0 +1,19 @@
+{
+	"version": "2.0",
+    "description": "Groupy 2 - Organize your applications into groups.",
+    "homepage": "https://www.stardock.com/products/groupy/",
+    "license": "Proprietary",
+    "url": "https://cdn.stardock.us/downloads/public/software/groupy/Groupy2_setup.exe",
+"installer": {
+	    "script": [
+	        "Start-Process -FilePath \"$dir\\setup.exe\" -Wait -NoNewWindow"
+	    ]
+},
+    "bin": "Groupy2.exe",
+    "shortcuts": [
+	        [
+	        "Groupy2.exe",
+            "groupy"
+        ]
+    ]
+}
