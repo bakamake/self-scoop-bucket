@@ -1,0 +1,23 @@
+{
+	  "version": "3.9.0",
+  "description": "Logisim-evolution is an educational tool for designing and simulating digital logic circuits.",
+  "homepage": "https://github.com/logisim-evolution/logisim-evolution",
+  "license": "GPL-3.0-or-later",
+  "url": "https://github.com/logisim-evolution/logisim-evolution/releases/download/v3.9.0/logisim-evolution-3.9.0-x86_64.msi",
+  "installer": {
+	    "args": ["/qn", "/norestart"]
+  },
+  "uninstaller": {
+	    "args": ["/qn", "/norestart"]
+  },
+  "bin": "logisim-evolution.exe",
+  "shortcuts": [
+	    ["logisim-evolution.exe", "Logisim Evolution"]
+  ],
+  "checkver": {
+	    "github": "https://github.com/logisim-evolution/logisim-evolution"
+  },
+  "autoupdate": {
+	    "url": "https://github.com/logisim-evolution/logisim-evolution/releases/download/v$version/logisim-evolution-$version-x86_64.msi"
+  }
+}
