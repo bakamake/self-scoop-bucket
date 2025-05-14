@@ -8,12 +8,5 @@
 	    "script": [
         "Start-Process -FilePath \"$dir\\Groupy2_setup.exe\" -ArgumentList \"/SILENT\", \"/NORESTART\" -Wait -NoNewWindow"
 	    ]
-},
-    "bin": "Groupy2.exe",
-    "shortcuts": [
-	        [
-	        "Groupy2.exe",
-            "groupy"
-        ]
-    ]
+}
 }
