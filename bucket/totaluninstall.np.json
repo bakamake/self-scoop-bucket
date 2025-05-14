@@ -1,0 +1,12 @@
+{ 
+    "version": "7.6.0", 
+    "description": "Total Uninstall - Powerful uninstaller to remove programs completely.", 
+    "homepage": "https://www.total-uninstall.com/", 
+    "license": "Proprietary", 
+    "url": "https://www.total-uninstall.com/archives/Total-Uninstall-Setup-7.6.0.exe", 
+    "installer": { 
+        "script": [ 
+            "Start-Process -FilePath \"$dir\\Total-Uninstall-Setup-7.6.0.exe\" -ArgumentList \"/SILENT\", \"/NORESTART\" -Wait -NoNewWindow" 
+        ] 
+        } 
+    }
