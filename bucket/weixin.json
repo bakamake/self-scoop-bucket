@@ -11,13 +11,7 @@
         "Remove-Item -Path \"$dir\\`$PLUGINSDIR\" -Recurse",
         "Remove-Item -Path  \"$dir\\install.7z\"  "
     ],
-    "bin": "Weixin.exe",
-    "shortcuts": [
-        [
-            "Weixin.exe",
-            "weixin"
-        ]
-    ],
+
     "checkver": "下载\\s*([\\d.]+)",
     "autoupdate": {
     "version": {

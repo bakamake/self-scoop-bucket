@@ -11,13 +11,5 @@
             "CapCut.exe",
             "CapCut"
         ]
-    ],
-    "checkver": {
-        "regex": "(?<major>[\\d]+)_(?<minor>[\\d]+)_(?<patch>[\\d]+)_(?<build>[\\d]+)_capcutpc",
-        "replace": "${major}.${minor}.${patch}.${build}"
-    },
-    "autoupdate": {
-        "url": "https://lf16-capcut.faceulv.com/obj/capcutpc-packages-us/packages/CapCut_$underscoreVersion_capcutpc_0_creatortool.exe#/capcut.7z",
-        "extract_dir": "JYPacket/$version"
-    }
+    ]
 }
