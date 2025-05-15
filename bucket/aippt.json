@@ -14,11 +14,11 @@
             }
         }
     },
-    "bin": "Weixin.exe",
+    "bin": "AiPPT.exe",
     "shortcuts": [
         [
-            "Weixin.exe",
-            "weixin"
+            "AIPPT.exe",
+            "aippt"
         ]
     ],
 }
