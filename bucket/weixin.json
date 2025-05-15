@@ -1,5 +1,5 @@
 {
-    "version": "3.9.12",
+    "version": "4.0.1",
     "description": "WeChat for Windows",
     "homepage": "https://pc.weixin.qq.com/",
     "license": {
@@ -18,8 +18,10 @@
             "weixin"
         ]
     ],
-    "checkver": "<span class=\"download-version\">([\\d.]+)</span>",
+    "checkver": "下载\\s*([\\d.]+)",
     "autoupdate": {
-        "url": "https://dldir1.qq.com/weixin/Windows/WeChatSetup.exe#/dl.7z"
+    "version": {
+        "regex": "下载\\s*([\\d.]+)"
     }
+}
 }

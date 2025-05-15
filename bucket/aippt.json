@@ -13,5 +13,12 @@
                 ]
             }
         }
-    }
+    },
+    "bin": "Weixin.exe",
+    "shortcuts": [
+        [
+            "Weixin.exe",
+            "weixin"
+        ]
+    ],
 }
