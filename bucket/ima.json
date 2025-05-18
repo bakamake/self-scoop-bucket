@@ -3,6 +3,5 @@
     "description": "IMA Copilot - An AI-powered assistant application",
     "homepage": "https://image.myqcloud.com",
     "license": "Unknown",
-    "url": "https://ima-app.image.myqcloud.com/win/1.7.0_2634_1018_234/ima.copilot_win_x64_1.7.0_2634_1018_234.exe#/dl.7z",
-    "bin": "ima.copilot_win_x64_1.7.0_2634_1018_234.exe"
+    "url": "https://ima-app.image.myqcloud.com/win/1.7.0_2634_1018_234/ima.copilot_win_x64_1.7.0_2634_1018_234.exe#/dl.7z"
 }
