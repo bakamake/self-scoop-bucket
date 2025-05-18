@@ -10,5 +10,17 @@
             "Move-Item \"$dir\\Chrome-bin\\*\" \"$dir\" -Force",
             "Remove-Item \"$dir\\chrome.7z\", \"$dir\\Chrome-bin\" -Force -Recurse"
         ]
-    }
+    },
+        "bin": [
+        [
+            "ima.copilot.exe",
+            "ima"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "ima.copilot.exe",
+            "ima"
+        ]
+    ]
 }
