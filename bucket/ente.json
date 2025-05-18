@@ -1,12 +1,12 @@
 {
-    "version": "4.3.5",
+    "version": "4.3.6",
     "description": "Ente Authentication",
     "homepage": "https://auth.ente.io/",
     "license": "Proprietary",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ente-io/ente/releases/download/auth-v4.3.5/ente-auth-v4.3.5-installer.exe",
-            "hash": "aa47c43a581bfcbf3c10575358e46982661507a39aca6ff463aca754923e316f",
+            "url": "https://github.com/ente-io/ente/releases/download/auth-v4.3.6/ente-auth-v4.3.6-installer.exe",
+            "hash": "360da107cd14f9d1faa10a90c3bd64d4c1b955432fa1aef2370044642645d6e8",
             "shortcuts": [
                 [
                     "auth.exe",
@@ -24,7 +24,8 @@
             "64bit": {
                 "url": "https://github.com/ente-io/ente/releases/download/auth-v$version/ente-auth-v$version-installer.exe",
                 "hash": {
-                    "url": "$baseurl/SHA256SUMS"
+                    "url": "https://github.com/ente-io/ente/releases/download/auth-v$version/sha256sum-windows",
+                    "regex": "([a-f0-9]{64}) \\*artifacts/ente-auth-$version-installer.exe"
                 }
             }
         }
