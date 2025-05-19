@@ -10,10 +10,6 @@
         }
     },
     "bin": "chatwise.exe",
-    "persist": [
-        "Download",
-        "Lyric"
-    ],
     "shortcuts": [
         [
             "chatwise.exe",
