@@ -1,0 +1,12 @@
+{
+    "version": "2.6.2.41321",
+    "description": "JetBrains Toolbox - A control panel for managing JetBrains tools and projects",
+    "homepage": "https://www.jetbrains.com/toolbox-app/",
+    "license": "Proprietary",
+    "url": "https://download-cdn.jetbrains.com/toolbox/jetbrains-toolbox-2.6.2.41321.exe",
+    "hash": "unknown",
+    "installer": {
+        "file": "jetbrains-toolbox-2.6.2.41321.exe",
+        "args": ["/S", "/D=$dir"]
+    }
+}
