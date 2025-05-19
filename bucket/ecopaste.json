@@ -9,6 +9,7 @@
             "hash": "ef296e133fb1e675afe893d40e20cc528adaa383cc0831c8c0deb8db83e1d233"
         }
     },
+    "bin": "ecoPaste.exe",
     "shortcuts": [
         [
             "ecoPaste.exe",
