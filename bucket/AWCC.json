@@ -24,7 +24,7 @@
             "Expand-Archive -Path \"$dir\\IM_Web_v6.2.7.0.zip\" -DestinationPath \"$dir\" -Force",
             "",
             "Write-Information \"运行安装程序\"",
-            "Start-Process -FilePath \"$dir\\AWCCInstallationManager.exe\" -ArgumentList \"/quiet\", \"/norestart\" -Wait -NoNewWindow"
+            "Start-Process -FilePath \"$dir\\AWCCInstallationManager.exe\" -ArgumentList \"/quiet\", \"/norestart\" -Wait -NoNewWindow -Verb runAs"
         ]
     },
     "checkver": {
