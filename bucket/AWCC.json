@@ -8,6 +8,23 @@
     "extract_dir": "IM_Web_v6.7.37.0",
     "installer": {
         "script": [
+            "Write-Information \"WebRequestSession 并设置 User-Agent\"",
+            "$session = New-Object Microsoft.PowerShell.Commands.WebRequestSession",
+            "$session.UserAgent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0'",
+            "",
+            "Write-Information \"使用 Invoke-WebRequest 下载文件\"",
+            "Invoke-WebRequest -UseBasicParsing -Uri 'https://dl.dell.com/FOLDER11402326M/1/IM_Web_v6.2.7.0.zip' -WebSession $session -Headers @{",
+            "    'DNT'='1';",
+            "    'Upgrade-Insecure-Requests'='1';",
+            "    'sec-ch-ua'='`\"Chromium`\";v=`\"136`\", `\"Microsoft Edge`\";v=`\"136`\", `\"Not.A/Brand`\";v=`\"99`\"\"';",
+            "    'sec-ch-ua-mobile'='?0';",
+            "    'sec-ch-ua-platform'='`\"Windows`\"\"'",
+            "} -OutFile \"$dir\\IM_Web_v6.2.7.0.zip\"",
+            "",
+            "Write-Information \"解压下载的 ZIP 文件\"",
+            "Expand-Archive -Path \"$dir\\IM_Web_v6.2.7.0.zip\" -DestinationPath \"$dir\" -Force",
+            "",
+            "Write-Information \"运行安装程序\"",
             "Start-Process -FilePath \"$dir\\AWCCInstallationManager.exe\" -ArgumentList \"/quiet\", \"/norestart\" -Wait -NoNewWindow"
         ]
     },
