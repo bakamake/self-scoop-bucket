@@ -20,9 +20,7 @@
             "    'sec-ch-ua-platform'='`\"Windows`\"\"'",
             "} -OutFile \"$dir\\IM_Web_v6.2.7.0.zip\"",
             "",
-            "Expand-Archive -Path \"$dir\\IM_Web_v6.2.7.0.zip\" -DestinationPath \"$dir\" -Force",
-            "",
-            "Start-Process -FilePath \"$dir\\AWCCInstallationManager.exe\" -ArgumentList \"/quiet\", \"/norestart\" -Wait -NoNewWindow -Verb runAs"
+            "Expand-Archive -Path \"$dir\\IM_Web_v6.2.7.0.zip\" -DestinationPath \"$dir\" -Force"
         ]
     },
     "checkver": {
