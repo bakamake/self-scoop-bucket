@@ -3,7 +3,7 @@
     "description": "Dell Alienware Command Center Installation Manager.",
     "homepage": "https://www.dell.com/support/home/zh-cn/drivers/driversdetails?driverid=76x42",
     "license": "Proprietary",
-    "url": "file://C:/Users/bakam/OneDrive/Desktop/self-scoop-bucket/bucket/7zip.json"",
+    "url": "file://C:/Users/bakam/OneDrive/Desktop/self-scoop-bucket/bucket/7zip.json",
     "hash": "eb5efc487722370f788a0ec6c38c9913530199e001a49ca1e46aaf9e040cf0c",
     "extract_dir": "IM_Web_v6.7.37.0",
     "installer": {
