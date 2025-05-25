@@ -1,0 +1,28 @@
+{
+    "version": "6.7.37.0",
+    "description": "Dell Alienware Command Center Installation Manager.",
+    "homepage": "https://www.dell.com/support/home/zh-cn/drivers/driversdetails?driverid=76x42",
+    "license": "Proprietary",
+    "url": "https://dl.dell.com/FOLDER12950156M/1/IM_Web_v6.7.37.0.zip",
+    "hash": "eb5efc487722370f788a0ec6c38c9913530199e001a49ca1e46aaf9e040cf0c",
+    "extract_dir": "IM_Web_v6.7.37.0",
+    "installer": {
+        "script": [
+            "Start-Process -FilePath \"$dir\\AWCCInstallationManager.exe\" -ArgumentList \"/quiet\", \"/norestart\" -Wait -NoNewWindow"
+        ]
+    },
+    "checkver": {
+        "url": "https://www.dell.com/support/home/en-us/drivers/driversdetails?driverid=76x42",
+        "regex": "<div class=\"invertRails \">([\\d.]+), A\\d+</div>"
+    },
+    "autoupdate": {
+        "url": {
+            "url": "https://www.dell.com/support/home/en-us/drivers/driversdetails?driverid=76x42",
+            "regex": "href=\"(https://dl\\.dell\\.com/FOLDER\\d+M/\\d+/IM_Web_v[\\d.]+\\.zip)\""
+        },
+        "hash": {
+            "url": "https://www.dell.com/support/home/en-us/drivers/driversdetails?driverid=76x42",
+            "regex": "<div class=\"col-md-2 font-weight-medium text-dark\">SHA-256：</div>\\s*<div class=\"col-md-10 break-word\">([a-f0-9]{64})</div>"
+        }
+    }
+}
