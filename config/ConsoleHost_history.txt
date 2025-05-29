@@ -1,0 +1,879 @@
+winget list
+get-appxpackage
+Install-PackageProvider -Name NuGet -Force
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process -Force
+Set-PSRepository -Name "PSGallery" -InstallationPolicy Trusted
+Install-Module -Name PSWindowsUpdate -Force
+Get-AppxPackage | Where-Object { $_.IsFramework -eq $True }
+Get-AppxPackage | Where-Object { $_.IsFramework -eq $True -and $_.NonRemovable -eq $False }
+Import-Module PSWindowsUpdate
+Get-WindowsUpdate
+Set-PSRepository -Name "PSGallery" -InstallationPolicy Trusted
+Import-Module PSWindowsUpdate
+Get-ExecutionPolicy
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned -Force
+Import-Module PSWindowsUpdate
+Get-WindowsUpdate
+Get-WindowsUpdate -Category DriversSet-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
+scoop 
+scoop bucket add self https://github.com/bakamake/self-scoop-bucket
+ls
+XblGameSaveTask
+`
+XblGameSaveTask
+ zipfldr
+zipfldr.dll
+scoop bucket add self https://github.com/bakamake/self-scoop-bucket
+scoop install mingit
+setx http_proxy "http://192.168.0.56:7890"
+setx https_proxy "http://192.168.0.56:7890"
+setx all_proxy "http://192.168.0.56:7890"
+Get-AppxPackage -AllUsers | Select Name, PackageFullName
+get-help remove-appxpackage 
+Get-AppxPackage -AllUsers *Microsoft.YourPhone* | Remove-AppxPackage
+Get-AppxPackage -AllUsers | Where-Object { $_.IsFramework -eq $False }
+Get-AppxPackage -AllUsers | Where-Object { $_.IsFramework -eq $False } | Select Name, PackageFullName
+Get-AppxPackage -AllUsers | Where-Object { $_.IsFramework -eq $False } | Select Name, NonRemovable
+git config --global scoket.proxy scoket://192.168.0.56:7890
+scoop bucket add self https://github.com/bakamake/self-scoop-bucket
+ls
+ls | Select Name
+ls -name *.json | Select Name
+ls -name \*.json | Select Name
+ls -name /*.json | Select Name
+ls -name *.json | Select Name
+scoop install self/typora
+scoop bucket add self https://github.com/bakamake/self-scoop-bucket
+git config --global https.proxy https://192.168.0.56:7890
+git config --global https.proxy http://192.168.0.56:7890
+git config --global http.proxy http://192.168.0.56:7890
+scoop bucket add self https://github.com/bakamake/self-scoop-bucket
+scoop install self/typora
+Get-AppxPackage -AllUsers *Microsoft.MicrosoftOfficeHub* | Remove-AppxPackage
+Get-AppxPackage  -AllUsers| Where-Object { $_.IsFramework -eq $True -and $_.NonRemovable -eq $False } | Select-Object Name
+Get-AppxPackage  -AllUsers| Where-Object { $_.IsFramework -eq $False -and $_.NonRemovable -eq $False } | Select-Object Name
+Get-AppxPackage -AllUsers *Clipchamp.Clipchamp* | Remove-AppxPackage
+Get-AppxPackage  -AllUsers| Where-Object { $_.IsFramework -eq $False -and $_.NonRemovable -eq $False } | Select-Object Name
+scoop install self/chatwise
+scoop install self/7zip
+scoop install self/chatwise
+Get-AppxPackage -AllUsers *Clipchamp.Clipchamp* | Remove-AppxPackage
+Get-AppxPackage  -AllUsers| Where-Object { $_.IsFramework -eq $False -and $_.NonRemovable -eq $False } | Select-Object Name
+Get-AppxProvisionedApp -Online | Where-Object { $_.DisplayName -like "*Clipchamp*" } | Remove-AppxProvisionedApp -Online
+Get-AppxPackage  Clipchamp.Clipchamp
+Get-AppxPackage  -name Clipchamp.Clipchamp
+Get-AppxPackage -Name *Clipchamp*
+Get-AppxPackage -Name *Clip*
+Get-AppxPackage -AllUsers *Microsoft.AV1VideoExtension* | Remove-AppxPackage
+Get-AppxPackage  -AllUsers| Where-Object { $_.IsFramework -eq $False -and $_.NonRemovable -eq $False } | Select-Object Name
+get-AppxPackage  -AllUsers| Where-Object { $_.IsFramework -eq $False -and $_.NonRemovable -eq $False } | Select-Object Name
+get-AppxPackage  -AllUsers| Where-Object { $_.IsFramework -eq $False } | Select-Object Name
+get-AppxPackage  -AllUsers| Where-Object { $_.NonRemovable -eq $False }| Where-Object { $_.IsFramework -eq $False } | Select-Object Name
+get-AppxPackage  -Name *Clipchamp* -AllUsers 
+get-AppxPackage  -AllUsers| Where-Object { $_.NonRemovable -eq $False }| Where-Object { $_.IsFramework -eq $False } | Where-Object { $_.PackageUserInformation -like "*Staged*" } | Select-Object Name
+get-AppxPackage  -AllUsers| Where-Object { $_.NonRemovable -eq $False }| Where-Object { $_.IsFramework -eq $False } | Where-Object { $_.PackageUserInformation -nolike "*Staged*" } | Select-Object Name
+get-AppxPackage  -AllUsers| Where-Object { $_.NonRemovable -eq $False }| Where-Object { $_.IsFramework -eq $False } | Where-Object { $_.PackageUserInformation -like "*Staged*" } | Select-Object Name
+get-AppxPackage  -AllUsers| Where-Object { $_.NonRemovable -eq $False }| Where-Object { $_.IsFramework -eq $False } | Where-Object { $_.PackageUserInformation -notlike "*Staged*" } | Select-Object Name
+Get-AppxPackage -AllUsers *Microsoft.BingNews* | Remove-AppxPackage
+get-AppxPackage  -AllUsers| Where-Object { $_.NonRemovable -eq $False }| Where-Object { $_.IsFramework -eq $False } | Where-Object { $_.PackageUserInformation -notlike "*Staged*" } | Select-Object Name
+Get-AppxPackage -AllUsers *Microsoft.OutlookForWindows* | Remove-AppxPackage
+Get-AppxPackage -AllUsers *XboxIdentityProvider* | Remove-AppxPackage
+Get-AppxPackage -AllUsers *Xbox* | Remove-AppxPackage
+Get-AppxPackage -AllUsers *Microsoft.XboxGamingOverlay* | Remove-AppxPackage
+Get-AppxPackage -AllUsers *Microsoft.Windows.Photos* 
+get-AppxPackage  -AllUsers| Where-Object { $_.NonRemovable -eq $False }| Where-Object { $_.IsFramework -eq $False } | Where-Object { $_.PackageUserInformation -notlike "*Staged*" } | Select-Object Name ,Dependencies 
+get-AppxPackage  -AllUsers| Where-Object { $_.NonRemovable -eq $False }| Where-Object { $_.IsFramework -eq $False } | Where-Object { $_.PackageUserInformation -notlike "*Staged*" } | Select-Object Name 
+Get-AppxPackage -AllUsers *Microsoft.Todos* | Remove-AppxPackage
+Get-AppxPackage -AllUsers *MicrosoftWindows.CrossDevice* | Remove-AppxPackage
+Get-AppxPackage -AllUsers *Microsoft.WindowsFeedbackHub* | Remove-AppxPackage
+get-AppxPackage  -AllUsers| Where-Object { $_.NonRemovable -eq $False }| Where-Object { $_.IsFramework -eq $False } | Where-Object { $_.PackageUserInformation -notlike "*Staged*" } | Select-Object Name 
+Get-AppxPackage -AllUsers *Microsoft.Windows.DevHome* | Remove-AppxPackage
+Get-AppxPackage -AllUsers *MicrosoftCorporationII.QuickAssist* | Remove-AppxPackage
+get-AppxPackage  -AllUsers| Where-Object { $_.NonRemovable -eq $False }| Where-Object { $_.IsFramework -eq $False } | Where-Object { $_.PackageUserInformation -notlike "*Staged*" } | Select-Object Name 
+Get-AppxPackage -AllUsers *Microsoft.GamingApp* | Remove-AppxPackage
+Get-AppxPackage -AllUsers *WindowsAlarms* | Remove-AppxPackage
+Get-AppxPackage -AllUsers *WindowsCalculator* | Remove-AppxPackage
+Get-AppxPackage -AllUsers *WindowsSoundRecorder* | Remove-AppxPackage
+get-AppxPackage  -AllUsers| Where-Object { $_.NonRemovable -eq $False }| Where-Object { $_.IsFramework -eq $False } | Where-Object { $_.PackageUserInformation -notlike "*Staged*" } | Select-Object Name 
+Get-AppxPackage -AllUsers *bing* | Remove-AppxPackage
+get-AppxPackage  -AllUsers| Where-Object { $_.NonRemovable -eq $False }| Where-Object { $_.IsFramework -eq $False } | Where-Object { $_.PackageUserInformation -notlike "*Staged*" } | Select-Object Name 
+Get-AppxPackage -AllUsers *gethelp* | Remove-AppxPackage
+get-AppxPackage  -AllUsers| Where-Object { $_.NonRemovable -eq $False }| Where-Object { $_.IsFramework -eq $False } | Where-Object { $_.PackageUserInformation -notlike "*Staged*" } | Select-Object Name 
+、
+get-AppxPackage  -AllUsers| Where-Object { $_.NonRemovable -eq $False }| Where-Object { $_.IsFramework -eq $False } | Where-Object { $_.PackageUserInformation -notlike "*Staged*" } | Select-Object Name 
+get-AppxPackage  -AllUsers| Where-Object { $_.NonRemovable -eq $False }| Where-Object { $_.IsFramework -eq $False } | Where-Object { $_.PackageUserInformation -like "*Staged*" } | Select-Object Name 
+get-AppxPackage  -AllUsers| Where-Object { $_.NonRemovable -eq $False }| Where-Object { $_.IsFramework -eq $False } | Where-Object { $_.PackageUserInformation -notlike "*Staged*" } | Select-Object Name 
+Get-AppxPackage -AllUsers *StickyNotes* | Remove-AppxPackage
+Get-AppxPackage -AllUsers *gamingapp*|Remove-AppxPackage
+Get-AppxPackage -AllUsers *FeedbackHub*|Remove-AppxPackage
+Get-AppxPackage -AllUsers *SolitaireCollection*|Remove-AppxPackage
+get-AppxPackage  -AllUsers| Where-Object { $_.NonRemovable -eq $False }| Where-Object { $_.IsFramework -eq $False } | Where-Object { $_.PackageUserInformation -notlike "*Staged*" } | Select-Object Name 
+Get-AppxPackage -AllUsers *Microsoft.StorePurchaseApp*|Remove-AppxPackage
+ls
+.\setup.exe /download  configuration-Office365-x64.xml
+cd downloads
+ls
+ls  Office
+del  Office
+ls
+.\setup.exe /configure  configuration-Office365-x64.xml
+Get-AppxPackage -AllUsers *ApplicationCompatibilityEnhancements* | Remove-AppxPackage
+get-AppxPackage  -AllUsers| Where-Object { $_.NonRemovable -eq $False }| Where-Object { $_.IsFramework -eq $False } | Where-Object { $_.PackageUserInformation -notlike "*Staged*" } | Select-Object Name 
+Get-AppxPackage -AllUsers *VideoExtensions* | Remove-AppxPackage
+get-AppxPackage  -AllUsers| Where-Object { $_.NonRemovable -eq $False }| Where-Object { $_.IsFramework -eq $False } | Where-Object { $_.PackageUserInformation -notlike "*Staged*" } | Select-Object Name 
+Get-AppxPackage -AllUsers *ImageExtension* | Remove-AppxPackage
+get-AppxPackage  -AllUsers| Where-Object { $_.NonRemovable -eq $False }| Where-Object { $_.IsFramework -eq $False } | Where-Object { $_.PackageUserInformation -notlike "*Staged*" } | Select-Object Name 
+Get-AppxPackage -AllUsers *VideoExtension* | Remove-AppxPackage
+get-AppxPackage  -AllUsers| Where-Object { $_.NonRemovable -eq $False }| Where-Object { $_.IsFramework -eq $False } | Where-Object { $_.PackageUserInformation -notlike "*Staged*" } | Select-Object Name 
+Get-AppxPackage -AllUsers *MicrosoftWindows.Voice.en-US.Jenny.1* | Remove-AppxPackage
+get-AppxPackage  -AllUsers| Where-Object { $_.NonRemovable -eq $False }| Where-Object { $_.IsFramework -eq $False } | Where-Object { $_.PackageUserInformation -notlike "*Staged*" } | Select-Object Name 
+get-AppxPackage  -AllUsers| Where-Object { $_.NonRemovable -eq $False }| Where-Object { $_.IsFramework -eq $False } | Where-Object { $_.PackageUserInformation -like "*Staged*" } | Select-Object Name 
+winget list
+get-AppxPackage  -AllUsers| Where-Object { $_.NonRemovable -eq $False }| Where-Object { $_.IsFramework -eq $False } | Where-Object { $_.PackageUserInformation -like "*Staged*" } | Select-Object Name 
+get-AppxPackage  -AllUsers| Where-Object { $_.NonRemovable -eq $False }| Where-Object { $_.IsFramework -eq $False } | Where-Object { $_.PackageUserInformation -notlike "*Staged*" } | Select-Object Name 
+Get-AppxPackage -AllUsers *Microsoft.Windows.Photos* | Remove-AppxPackage
+get-AppxPackage  -AllUsers| Where-Object { $_.NonRemovable -eq $False }| Where-Object { $_.IsFramework -eq $False } | Where-Object { $_.PackageUserInformation -notlike "*Staged*" } | Select-Object Name 
+winget list
+get-AppxPackage  -AllUsers| Where-Object { $_.NonRemovable -eq $False }| Where-Object { $_.IsFramework -eq $False } | Where-Object { $_.PackageUserInformation -notlike "*Staged*" } | Select-Object Name ,Dependencies
+get-AppxPackage  -AllUsers| Where-Object { $_.NonRemovable -eq $False }| Where-Object { $_.IsFramework -eq $False } | Where-Object { $_.PackageUserInformation -like "*Staged*" } | Select-Object Name ,Dependencies
+get-AppxPackage  -AllUsers| Where-Object { $_.NonRemovable -eq $False }| Where-Object { $_.IsFramework -eq $False } | Where-Object { $_.PackageUserInformation -notlike "*Staged*" } | Select-Object Name ,Dependencies
+get-AppxPackage  -AllUsers| Where-Object { $_.NonRemovable -eq $False }| Where-Object { $_.IsFramework -eq $true } | Select-Object Name 
+scoop install self/pikpak
+scoop install uv
+exit
+scoop
+exit
+exit
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+Invoke-Expression (Invoke-RestMethod -Uri https://get.scoop.sh)
+scoop bucket add self https://github.com/bakamake/self-scoop-bucket
+scoop install mingit
+scoop install aria2
+exit
+scoop install uv
+scoop config aria2-enabled false
+scoop config aria2-enabled true
+scoop config aria2-warning-enabled false
+scoop install uv
+scoop bucket add self https://github.com/bakamake/self-scoop-bucket
+scoop install self/pikpak
+scoop install self/7zip
+scoop install self/chatwise
+scoop install self/everything
+scoop install self/ente
+scoop bucket add extras
+scoop install self/pikpak
+scoop install innounp
+git config --global user.name bakamake
+scoop bucket add extras
+git config --global user.mail chenzehuan883@gmail.com
+git add .
+git commint
+git commit
+git add . ,git commit, git push
+git add .,git commit,git push
+scoop install self/chatwise
+scoop install self/typora
+ls
+cd onedrive\desktop
+ls
+cd self-scoop-bucket
+git add . ; git commit ; git push
+  git config --global user.email "chenzehuan882@gmail.com"
+git add . ; git commit ; git push
+exit
+scoop update
+scoop bucket rm self
+scoop bucket add self https://github.com/bakamake/self-scoop-bucket
+scoop install self/capcut
+git add . ; git commit ; git push
+git add . ; git commit -m "df" ; git push
+scoop install self/weixin
+scoop export
+exit
+exit
+scoop install self/weixin
+git add . ; git commit -m "df" ; git push
+git add . ; git commit -m "df" 
+git push
+scoop install self/weixin
+scoop cat self/weixin
+notepad weixin.json
+ls
+cd bucket
+ls
+notepad weixin.json
+git add . ; git commit -m "df"
+git push
+scoop undate
+scoop update
+scoop install self/weixin
+exit
+scoop install self/capcut
+scoop install self/notion
+scoop install vscode
+typora "C:\Users\bakam\OneDrive\Desktop\失眠睡眠行为学.xlsx"
+exit
+scoop install groupy.np
+git add . ; git commit -m "df"
+git push
+scoop install weixin
+scoop uninstall weixin
+scoop install weixin
+scoop update
+scoop bucket rm self 
+scoop bucket add self https://github.com/bakamake/self-scoop-bucket
+scoop bucket add self https://github.com/bakamake/self-scoop-bucket.git
+scoop update
+scoop install totaluninstall.np
+scoop install Fences.np
+scoop update
+scoop install ms-vstudio.np
+scoop uninstall ms-vstudio.np
+scoop install ms-vstudio.np
+scoop uninstall ms-vstudio.np
+scoop update
+scoop install ms-vstudio.np
+curl https://c2rsetup.officeapps.live.com/c2r/downloadVS.aspx?sku=community&channel=Release&version=VS2022&source=VSLandingPage&cid=2030:07a8b6b40c55437484acbe8df39719b6
+ls
+curl -L -w %{url_effective} "https://c2rsetup.officeapps.live.com/c2r/downloadVS.aspx?sku=community&channel=Release&version=VS2022&source=VSLandingPage&cid=2030:07a8b6b40c55437484acbe8df39719b6"
+ls
+curl -s -L -o nul -w %{url_effective} "https://c2rsetup.officeapps.live.com/c2r/downloadVS.aspx?sku=community&channel=Release&version=VS2022&source=VSLandingPage&cid=2030:07a8b6b40c55437484acbe8df39719b6"
+curl -s -L -o NUL -w %{url_effective} "https://c2rsetup.officeapps.live.com/c2r/downloadVS.aspx?sku=community&channel=Release&version=VS2022&source=VSLandingPage&cid=2030:07a8b6b40c55437484acbe8df39719b6"
+curl -s -L -o NUL -w %{url_effective} "https://c2rsetup.officeapps.live.com/c2r/downloadVS.aspx?sku=community&channel=Release&version=VS2022&source=VSLandingPage"
+curl -s -L -o NUL -w %{url_effective} "https://c2rsetup.officeapps.live.com/c2r/downloadVS.aspx?sku=community&channel=Release&version=VS2022"
+aria2c {`
+    "version": "3.5.0",`
+    "description": "WaveDrom Editor - A tool for creating digital timing diagrams.",`
+    "homepage": "https://wavedrom.com/",`
+    "license": "MIT",`
+    "url": "https://github.com/wavedrom/wavedrom.github.io/releases/download/v3.5.0/wavedrom-editor-v3.5.0-win-x64.zip",`
+    "extract_dir": "wavedrom-editor-v3.5.0-win-x64",`
+    "bin": "wavedrom-editor.exe",`
+    "shortcuts": [`
+        [`
+            "wavedrom-editor.exe",`
+            "WaveDrom Editor"`
+        ]`
+    ]`
+}
+aria2c https://github.com/wavedrom/wavedrom.github.io/releases/download/v3.5.0/wavedrom-editor-v3.5.0-win-x64.zip
+get-AppxPackage  -AllUsers kill
+get-AppxPackage  -AllUsers kill*
+get-AppxPackage  -AllUsers 
+get-AppxPackage  -AllUsers| Where-Object { $_.NonRemovable -eq $False }| Where-Object { $_.IsFramework -eq $true } | Select-Object Name
+get-AppxPackage  -AllUsers| Where-Object { $_.NonRemovable -eq $False }| Where-Object { $_.IsFramework -eq $False } | Select-Object Name
+get-AppxPackage  -AllUsers| Where-Object { $_.NonRemovable -eq $False }| Where-Object { $_.IsFramework -eq $False } |Where-Object { $_.NonRemovable -eq $False }| Select-Object Name 
+get-AppxPackage  -AllUsers| Where-Object { $_.NonRemovable -eq $False }| Where-Object { $_.IsFramework -eq $False } |Where-Object { $_.PackageUserInformation -like installed }| Select-Object Name 
+get-AppxPackage  -AllUsers| Where-Object { $_.NonRemovable -eq $False }| Where-Object { $_.IsFramework -eq $False } |Where-Object { $_.PackageUserInformation -like "installed" }| Select-Object Name 
+get-AppxPackage  -AllUsers| Where-Object { $_.NonRemovable -eq $False }| Where-Object { $_.IsFramework -eq $False } |Where-Object { $_.PackageUserInformation -like "Installed" }| Select-Object Name 
+get-AppxPackage  -AllUsers| Where-Object { $_.NonRemovable -eq $False }| Where-Object { $_.IsFramework -eq $False } |Where-Object { $_.PackageUserInformation -like "*Installed*" }| Select-Object Name 
+get-AppxPackage  -AllUsers| Where-Object { $_.NonRemovable -eq $True }| Where-Object { $_.IsFramework -eq $False } | Select-Object Name
+get-AppxPackage  -AllUsers| Where-Object { $_.NonRemovable -eq $True }| Where-Object { $_.IsFramework -eq $True } | Select-Object Name
+scoop uninstall weixin
+scoop install weixin
+exit
+curl -s -L -o NUL -w %{url_effective} "https://url.wiz.cn/u/win64_new"
+curl -s -L -o  -w %{url_effective} "https://url.wiz.cn/u/win64_new"
+curl -L -w %{url_effective} "https://url.wiz.cn/u/win64_new"
+scoop uninstall ms-vstudio.np
+scoop install geeluninstall
+scoop install geeluninstaller
+scoop install geekuninstaller
+scoop search note
+scoop bucket rm main
+scoop bucket add main
+scoop uninstall vscode
+where 0install
+cmd
+icacls $env:localappdata\0install.net /t /q /c /reset
+rm -Recurse $env:localappdata\0install.net
+exit
+scoop install localsend
+git add . ; git commit -m "df"
+git push
+scoop undate
+scoop update
+ls
+ls bin
+./bin/checkurls.ps1
+./bin/checkver.ps1
+./bin/checkver.ps1 -update
+scoop install aippt
+./bin/checkver.ps1 
+git add . ; git commit -m "update"
+git push
+scoop update
+scoop update chatwise
+code .
+./bin/checkver.ps1 
+netsh winhttp reset proxy
+./bin/checkver.ps1 
+./bin/checkver.ps1 -update
+./bin/checkver.ps1
+./bin/checkver.ps1 -update
+$env:HTTP_PROXY = ""
+$env:HTTPS_PROXY = ""
+./bin/checkver.ps1 -update
+scoop cat aippt
+exit
+git add . ; git commit -m "update" , git push
+exit
+git add . ; git commit -m "update" 
+git push
+scoop undate
+scoop update
+scoop uninstall aippt
+git add . ; git commit -m "update" 
+git push
+scoop update
+scoop install aippt
+git add . ; git commit -m "update"   /
+git add . ; git commit -m "update"   \
+git add . ; git commit -m "update"
+git push
+exit
+exit
+scoop update
+scoop install self/telegram
+exit
+./bin/checkver.ps1 -update
+ls
+vlc *.mp4
+vlc 
+ls
+ get-help ls
+ get-help -Recurse
+ls -Recurse
+tree
+get-help tree
+tree /?
+tree /F
+tree 
+tree /F
+scoop search trilium
+scoop install triliumnext
+sudo config --enable
+sudo 
+sudo
+exit
+scoop install self/kugou
+类似、
+./bin/checkver.ps1 -update
+scoop cat self/vsode
+scoop cat self/vscode
+scoop cat self/folo
+curl -s https://api.github.com/repos/RSSNext/Folo/releases/latest
+scoop cat self/ente
+curl -s https://api.github.com/ente-io/ente/releases?q=tag%3Aauth-v4
+curl -s https://api.github.com/ente-io/ente/releases?q=tag%3Aauth-v4/latest
+curl -s https://api.github.com/repos/ente-io/ente/releases
+curl -s https://api.github.com/repos/ente-io/ente/releases/tags/auth-v4
+curl -s https://api.github.com/repos/ente-io/ente/releases/tags/auth-v3
+curl -s https://api.github.com/repos/ente-io/ente/releases/tags/auth
+curl -s https://api.github.com/repos/ente-io/ente/releases/
+curl -s https://api.github.com/repos/ente-io/ente/releases/latest
+curl -s https://github.com/ente-io/ente/releases/download/auth-v4.3.6/sha256sum-windows
+ls
+scoop cat self/ente
+code ./bucket/ente.json
+./bin/checkver.ps1 -update
+code ./bucket/chatwise.json
+./bin/checkver.ps1 -update
+curl -s https://github.com/egoist/chatwise-releases/releases/download/v0.8.53/ChatWise_aarch64.app.tar.gz.sig
+curl -s https://github.com/egoist/chatwise-releases/releases/download/v0.8.53/ChatWise_0.8.53_x64-setup.exe.sig
+curl -s https://github.com/egoist/chatwise-releases/releases/download/v0.8.53/ChatWise_0.8.53_x64-setup.exe.sig -o chatwise.sig
+type chatwise.sig
+curl https://github.com/egoist/chatwise-releases/releases/download/v0.8.53/ChatWise_0.8.53_x64-setup.exe.sig -o chatwise.sig
+scoop install self/kugou
+set http_proxy=
+set https_proxy=
+set ftp_proxy=
+scoop install self/kugou
+ls -name *.pak
+dir
+ls swiftshader
+ls -name *.dll
+scoop bucket add nerd-fonts
+set http_proxy=192.168.0.56:7890
+scoop bucket add nerd-fonts
+scoop bucket rm nerd-fonts
+scoop bucket add nerd-fonts
+set https_proxy=192.168.0.56:7890
+scoop bucket add nerd-fonts
+scoop bucket rm nerd-fonts
+scoop bucket add nerd-fonts
+scoop search mono
+ls -name *.exe
+7z x apphost.exe -oo
+ls
+ls  o
+rm o -R
+rm o /rR
+rm o /r
+set http_proxy=
+set https_proxy=
+set ftp_proxy=
+set all_proxy=
+aria2c https://ima-app.image.myqcloud.com/win/1.7.0_2634_1018_234/ima.copilot_win_x64_1.7.0_2634_1018_234.exe
+ls
+7z x ima.copilot_win_x64_1.7.0_2634_1018_234.exe -oo
+ls o
+7z x o/chrome.7z -ooo
+ls
+ls oo
+git add . ; git commit -m "update"
+git push
+scoop update 
+exit
+scoop update 
+scoop install self/ima
+git add . ; git commit -m "update"
+scoop update 
+git push
+scoop update 
+scoop install self/ima
+scoop install self/ima
+git add . ; git commit -m "update"
+git push
+scoop update 
+scoop install self/ima
+ls ima
+ls ima\current
+git add . ; git commit -m "update"    ;  git push  ; scoop update
+scoop uninstall ima;scoop install self/ima
+git add . ; git commit -m "update"    ;  git push  ; scoop update
+scoop uninstall ima;scoop install self/ima
+ima
+exit
+ls
+exit
+scoop istall zep
+scoop istall zed
+scoop install zed
+scoop cat cinny
+scoop cat  jackett
+exit
+scoop uninstall zed
+exit
+scoop catmonokle
+scoop cat monokle
+scoop cat monolith
+`
+scoop cat godot-mono
+`
+scoop cat harmonoid
+exit
+ls
+exit
+git clone https://github.com/microsoft/WPF-simple.git
+git clone https://github.com/microsoft/WPF-samples.git
+scoop search board
+scoop install clipboard
+clipboard
+`
+clipboarddsfasdfasdf
+clipboard
+clipboard --help
+exit
+get-help clipboard
+get-help Get-Clipboard
+scoop install nvm
+node -v
+nvm
+scoop search node
+nvm install nodejs-lts
+nvm install   22.15.1
+scoop install logisim-evolution
+git add . ; git commit -m "update"    ;  git push  ; scoop update
+scoop install logisim-evolution
+nvm use 22.15.1
+nvm use 22.15.1
+node -v
+npm -v
+nvm list
+nvm use 22.15.1
+npm -v
+exit
+scoop install java/openjdk
+scoop bucket add java
+scoop search java
+scoop search jdk
+scoop search java
+scoop bucket add java
+scoop bucket rm java
+scoop bucket add java
+scoop list
+scoop install java/openjdk
+scoop search wavedrom-editor
+exit
+scoop search wavedrom
+scoop search md
+scoop cat steamcmd
+logisim-evolution
+Scoop cat logisim-evolution
+SCOOP UNSINTALL logisim-evolution ;scoop uninstall openjdk ; scoop bucket rm java
+SCOOP uninstall logisim-evolution ;scoop uninstall openjdk ; scoop bucket rm java
+scoop cat logisim-evolution
+scoop install self\logisim-evolution
+scoop install self/logisim-evolution
+scoop search md
+scoop install self/uutils-coreutils
+find
+where find
+which find
+get-help find
+cmd
+grep "d" . -r --include=".md"
+cd onedrive\desktop
+grep "d" . -r --include=".md"
+grep "d"  -r --include=".md"
+grep "d" --include=".md"
+ls
+grep "d" uninstall-fat-windows.md
+cat uninstall-fat-windows.md
+ls
+msys2
+ls
+msys2
+ls
+dev
+where dev
+where *dev*
+scoop search RegEditor
+scoop install RegEditor
+scoop uninstall RegEditor
+scoop install Pandoc
+cd
+MpCmdRun.exe
+MpCmdRun
+cd C:\Program Files\Windows Defender>
+cd C:\Program Files\Windows Defender
+cd 'C:\Program Files\Windows Defender'
+MpCmdRun
+MpCmdRun.exe
+cmd
+nuget
+git clone --depth 1 https://github.com/2dust/v2rayN.git
+ls
+cd v2rayN
+ls
+cd v2rayN
+ls
+cd v2rayN.Desktop
+ls
+ GlobalUsings.cs
+exp
+scoop install steamcmd
+steamcmd
+exit
+git add . ; git commit -m "update"    ;  git push  ; scoop update
+exit
+scoop install jetbrain-toolbox.np
+scoop cat jetbrain-toolbox.np
+git add . ; git commit -m "update"    ;  git push  ; scoop update
+scoop cat self\jetbrain-toolbox.np
+scoop cat self/jetbrain-toolbox.np
+git add . ; git commit -m "update"    ;  git push  ; scoop update
+scoop install self/jetbrain-toolbox
+scoop search ecopaste
+./bin/checkver.ps1 -update
+scoop update chatwise
+./bin/checkver.ps1 -update
+git add . ; git commit -m "update"    ;  git push  ; scoop update
+exit
+scoop install ecopaste
+git add . ; git commit -m "update"    ;  git push  ; scoop update
+scoop uninstall ecopaste
+exit
+scoop uninstall ecopaste
+get-Process
+exit
+get-Process
+close-Process
+scoop uninstall ecopaste
+exit
+scoop uninstall ecopaste
+stop-Process -name EcoPaste 
+scoop uninstall ecopaste
+scoop install ecopaste
+ecopaste
+cd downloads
+aria2c https://files.chemtable.com/ro/reg-organizer-setup.exe
+ls
+rm yuanbao_1.15.0.613_x64.exe
+ls
+7z x  reg-organizer-setup.exe -oo
+ls
+cd o
+ls
+tree
+tree /F
+exp
+cd ..
+ls
+scoop list
+innounp -x  reg-organizer-setup.exe -oo
+ls
+ls  {app}
+ls  app
+cd  {app}
+ls
+ls  \{app\}
+ls  /{app/}
+npm install –save-dev electron
+npm install --save-dev electron
+dotnet -
+steamcmd
+msys2
+scoop install stranslate
+stranslate
+scoop search qt
+scoop search ipmitool
+scoop list
+scoop search ipmitool
+scoop search jet
+./bin/checkver.ps1 -update
+git add . ; git commit -m "update"    ;  git push  ; scoop update
+scoop cat slang ; scoop cat superfile ;scoop cat  mise
+scoop install superfile
+spf
+spf --help
+spf 
+spf  --fh
+spf  --v
+]\
+4
+scoop update chatwise
+scoop cat  jdtl
+scoop cat  jdtls
+scoop search Alexandria
+scoop update telegram
+Install-Package DevWinUI
+exit
+Install-Package DevWinUI
+dotnet 
+dotnet tool
+dotnet tool list
+dotnet add package CommunityToolkit.Mvvm
+dotnet add package Microsoft.Toolkit.Mvvm
+ls
+cd winui3
+dotnet add package Microsoft.Toolkit.Mvvm
+mkdir Dev
+cd Dev
+mkdir net
+cd net
+mkdir winui
+mkdir winui3
+mkdir winui3-try
+rm     winui
+get-help remove
+scoop list
+scoop cat uutils-coreutils 
+rm.exe     winui
+rm.exe -fr winui
+sudo rm.exe -fr winui
+rm.exe -fr winui
+ls
+cd onedrive\dev
+ls
+rm.exe -fr net
+sudo rm.exe -fr net
+rm /f /r net
+rm /f  net
+rm   net /f
+Remove-Item -Path net -Recurse -Force
+mkdir winui3-try
+cd winui3-try
+dotnet new winui -n MyWinUIApp
+dotnet new -i Microsoft.WindowsAppSDK.Templates
+dotnet new install Microsoft.WindowsAppSdk.ProjectTemplates
+dotnet new search winui
+Get-LocalUser
+remove-LocalUser scnut
+exit
+remove-LocalUser scnut
+Get-LocalUser
+remove-LocalUser csmiv
+remove-LocalUser cnzhz
+remove-LocalUser gydlq
+remove-LocalUser 28648
+Get-LocalUser
+scoop update
+scoop install AWCC
+cd
+cd downloads
+curl https://dl.dell.com/FOLDER12950156M/1/IM_Web_v6.7.37.0.zip
+scoop install AWCC
+scoop install postman
+curl ^"https://browser.events.data.msn.com/OneCollector/1.0?cors=true^&content-type=application/x-json-stream^&ext.intweb.msfpc=GUID^%^3D45b7429a51cf4b5fade30ce35ed08cc4^%^26HASH^%^3D45b7^%^26LV^%^3D202505^%^26V^%^3D4^%^26LU^%^3D1748141548992^&w=0^" ^
+  -H ^"accept: */*^" ^
+  -H ^"accept-language: en-GB,en;q=0.9,zh-CN;q=0.8,zh;q=0.7^" ^
+  -H ^"cache-control: no-cache, no-store^" ^
+  -H ^"client-id: NO_AUTH^" ^
+  -H ^"client-version: 1DS-Web-JS-3.2.8^" ^
+  -H ^"content-type: application/x-json-stream^" ^
+  -H ^"dnt: 1^" ^
+  -H ^"origin: https://ntp.msn.com^" ^
+  -H ^"priority: u=1, i^" ^
+  -H ^"referer: https://ntp.msn.com/^" ^
+  -H ^"sec-ch-ua: ^\^"Chromium^\^";v=^\^"136^\^", ^\^"Microsoft Edge^\^";v=^\^"136^\^", ^\^"Not.A/Brand^\^";v=^\^"99^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?0^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Windows^\^"^" ^
+  -H ^"sec-fetch-dest: empty^" ^
+  -H ^"sec-fetch-mode: cors^" ^
+  -H ^"sec-fetch-site: same-site^" ^
+  -H ^"sec-ms-gec: D8C7144C91E6B93538EF5E802BCB44B1CC0B139758CAF7C7A4920988DF08263F^" ^
+  -H ^"sec-ms-gec-version: 1-136.0.3240.76^" ^
+  -H ^"time-delta-to-apply-millis: 2653^" ^
+  -H ^"upload-time: 1748173179035^" ^
+  -H ^"user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0^" ^
+  -H ^"x-client-data: eyIxIjoiNSIsIjIiOiIxIiwiMyI6IjAiLCI0IjoiLTEyNjgwMjU3NTU5MTI5NDM2MjciLCI2Ijoic3RhYmxlIiwiOSI6ImRlc2t0b3AifQ==^" ^
+  -H ^"x-edge-shopping-flag: 0^" ^
+curl ^"https://dl.dell.com/FOLDER11402326M/1/IM_Web_v6.2.7.0.zip^" ^
+  -H ^"accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7^" ^
+  -H ^"accept-language: en-GB,en;q=0.9,zh-CN;q=0.8,zh;q=0.7^" ^
+  -b ^"txUid=CoJ0TmgjN0Y4VmKUDeoUAg==; dell_consent_map=139^%^7C140; mktrecipe=b; d_vi=4e0a4cdb704201004e372368b702000004010000; _cls_v=6faa9c45-101d-47f5-bff4-8e259f23fc0d; ajs_anonymous_id=37399af2-c710-46f3-b018-ee6f7d4a84e1; akGD=^%^7B^%^22country^%^22^%^3A^%^22HK^%^22^%^2C^%^22region^%^22^%^3A^%^22^%^22^%^7D; DellCEMSession=D993F25EDE8201DE781DB94910F74C41; um_g_uc=false; cidlid=^%^3A^%^3A; s_cc=true; dell_cmp_consent=^{^\^"s^\^":1,^\^"m^\^":1,^\^"e^\^":1^}; _cls_s=2a525141-cbb0-419c-b6d9-d6b00f16e7fe:1; rto=default; akaalb_CSB_CHINA_AZ=~op=~rv=32~m=~os=~id=b5034e365141dd457397d73915077bd3; check=true; dc-ctxt=c=CN^&l=zh^&sdn=work^&uh=44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a^&ut=1747909337616; lwp=c=cn^&l=zh^&s=bsd^&cs=cnbsd1; ooc-country-code=cn; eSupId=SID=2e31ca24-180b-46d6-a891-bfd6d3d3a79b^&apc=g-series-15-5520-laptop; OLRProduct=OLRProduct=^|g-series-15-5520-laptop; AMCV_4DD80861515CAB990A490D45^%^40AdobeOrg=179643557^%^7CMCIDTS^%^7C20234^%^7CMCMID^%^7C85827311862928708590155348022658296757^%^7CMCAID^%^7CNONE^%^7CvVersion^%^7C5.5.0; s_vnc365=1779706025425^%^26vn^%^3D7; s_ivc=true; bm_ss=ab8e18ef4e; _abck=C8C8418DBE2F481E2F836CA608C2A8D0~0~YAAQMPAgFxifGdWWAQAAFFAOBw3ZAMB9Kxc+KcjgSTs817jbN1payxrPRA7PlSWPvQi/TG+blzu3JrZb8TlU6n/lEUO2/n0SyQ29sEwiQAo4FoOpiTM2PiXC+2RPQ9sIKVZHSWnX2JY8S0qUfuY5BWEWi5q078HUSip921Op7z4Zw3JExNmkGtysh6LwX6t9bnUzapSk/vC106zzx9xdKBr8pP7/gMuzBwjpLp1eqXq6I2GE6zSkMBP4yY0n+0IvsNCMIdLGYy8zEm1fIlhuUi3M2fPRz7fqgLW8pryuu5L3UbaZrMHYsRi6XjtCFxcPpPvMrwSpsTZOAgxAVzchVhrBu7nlK/yawivQLF0i2PmLA9eBTErw3kF8eeOM38V1yy1Ce+N59T3Y484QvcBqCm9J7WqtCn9BdmNX5T0JD8BwarLE2al6T6CMOVAKOcPinVW5QwhxL5HZihK8wczEFMZofCdzNK9P3wlxjeAYt7qezRuVC3z6r+kDM5QtIqTtdHL1WnPLeKhXM7zyI9NrzuPaxy2s9ziUN+1YOJxljd8nLkTuxbyVZRJABQ0FbTIQyF9Oel9nuWDMCtbMQC7+7u24//mJAbs14kvPa2EP6zqbrV0hQVCDBntle8wgzqKBNgm768kDHanAMUO5lcQrn4ewuJy772/06gXmGOWrQ2CFJkrmufZyWLdUZGq8Mt0SM5DoOWg8Y497h6FxgGqrphl96ZlhbMwXX7EYmI9LqJGfcKO6mGs72fNLvIXwcCJMos/QA9ghwBb21VSdDD2NOASeyt6HXbf+gQhnSnZo20xkwbFtXOgfikxG9cYEAuxMvCN5IOAkbd2eh8mneSXqSgG4YYm4pnPs6dp6Vq94QOkTEzs=~-1~-1~-1; bm_s=YAAQMPAgFxmfGdWWAQAAFFAOBwPsRKuENnnO5YV4LzQssQdFS7IDtkNmXcCwVK1fLkbKkwx6/NmND3I5z2jWcIeQpre2wM3zxNB7biXDXjg0gVeW8IpZ2WmbkNYMWlOmltHOsJpXyEwO8nAF53vfIzKqwkVk36VKdWmoL9iXGOMHcUfANb8b/rQdCPNCtUMQDYaraEV+G4UthZqqQV21qewqEOMbZzMLi2aFcb5bPfwzzhqEl//a+0t4lQgKr3bOIUXMX24jpK22h3NWRtGRd2QVKgkvxIM9NHieGjxJ7SWIq02CWd1iWDNw8UASYV8Dme0e2Sh+ymYHRRJ14sw4SJW4+WAAi5WWeXSED4S8mgUVOo+ODiEUCJ/ITlFg+rVfXMPkzW7WOR/goMRRCro40OGqrh6ujJmee+AWjzT+4MkBrRNT7JhR4p2KzOUJOE6KGgyZJ2fxR9MvF2/gPNuvHpAlVG13HSDd6cMre3w5YzJ0shucZxDlpAI6r0M5NIyhPR1s1jLpz+CqY0WUSF4Bgh+fT7tQYKpujuh+eEmdsTTZNcHBOvSDQuZiCKib5w==; s_c49=c^%^3Dcn^%^26l^%^3Dzh^%^26s^%^3Dbsd^%^26cs^%^3Dcnbsd1; bm_sz=0C51B55A005156D7290CE56A033CD3A7~YAAQE/AgF/G9xceWAQAA99gYBxsa35Ly+YbD1GhC+crMi3qdKHYp9wJBn+mnkcSZ5Wh7LiBTtTqxUrqI88A3B89Vno5K9YDIzhhf5ikpkY2FtR3UjQjsvugurotoqTOLbyLm8FGCe/n9Dr/56lkUa1wU6v49fjcNGFUXjgOu162HOppgjz0HmbRdH6fD0CDrjKQFCSvH1fH0p0gny9mWVdOJKzseWkeuDVZfFCGsceTrqHo+IJ4bgvUzM/dHMR0U3gma6KBs8NXNTOBPWidY3dhGHP4JY0J7cFpABvBxHN9rD5/yQ/tLgs4vBkvXEUAwNNEKDU6jIzgIcjln9KkLcOU8+Brz4zxnsPazbwkthOMSRtUYzEJuQVMpBOcQA/uYgPmBgzmWuDiLdK4k/IYdrXpy+Jfk84Fk0toohuQRXrYOC3JZhRnM5dAWLjpBNcxZmYlJSKH1Y0GJXFGONAdthbI9M9SqYhn6npRRQn/bdD0ihcHYvGST~3425849~3683397; s_ips=738.8000000119209; s_tp=4530; s_sq=^%^5B^%^5BB^%^5D^%^5D; ak_bmsc=18227F4BECADF69542771B47493AEFA9~000000000000000000000000000000~YAAQJvAgF7nYb9OWAQAAHjsyBxtXQTg/KbIA3gMV2BscC2m/2juCfpYVndk4pusxMk1N9Xs3XoYIl0oYIvG6lPlgwPg32LPrEJ1uajadSm9rdwXywbglsdB9RF0oatl2OcmmFrF8RwnQ0YlEZ/jJzGgb4fFirv1SXw117S9eC+JyLjgUlwZvbGuQGv4OQbzD7kMWGHa7PFcdv9YacdRtpA4G7G0cALEh3zPWujSm656TI2FZrIfHqi+8JqZbtsMXHTc8XjRkJoKUQTpZeiKvGump68Yj4PfuRLVNY94ubX16C5tSIBp1n6lsj8xBbw+FQf3UV8uFgafqOvnJIGqBiI3tK5LHsMsNyZuxUo3BMcX3NY2OBRMQ/FiVC/9CXj7wMNV3enzRTFrUGA==; s_ppv=cn^%^257Czh^%^257Cbsd^%^257Ccnbsd1^%^257Cesupport-home^%^257Cdriversdetails^%^257Cindex^%^2C16^%^2C77^%^2C44^%^2C3466^%^2C6^%^2C4; bm_sv=12C13C611C9011B5183DCBC59CB83C35~YAAQOfAgFw9NVfaWAQAAL6A9BxtgynW8lQRhMO07Pdt7MPncwUgT7Gj5KQRYMZbgsCyYcbgJwMt7oiWA+FcZ9tBCCxRp+Ac3zp09VhymfUedzJW2FPdmnHpFD2yftyj6MulJJ5KKOotcxXD8yCy4f2rSVJIUgrOGE4ObVpkkg9gYzvmIY/hgLJTeKGfcq9wS0xVH5BeF0F6+NFeuf3SInNg53dDImJmEKZ1ig8mHhae9Z+kU51eQB/b09wwRk9E=~1^" ^
+  -H ^"dnt: 1^" ^
+  -H ^"if-range: ^\^"b6ae34a1b8f9d5d9224d7b8888777eac:1718656670.709087^\^"^" ^
+  -H ^"priority: u=0, i^" ^
+  -H ^"range: bytes=3602801-3602801^" ^
+  -H ^"sec-ch-ua: ^\^"Chromium^\^";v=^\^"136^\^", ^\^"Microsoft Edge^\^";v=^\^"136^\^", ^\^"Not.A/Brand^\^";v=^\^"99^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?0^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Windows^\^"^" ^
+  -H ^"sec-fetch-dest: document^" ^
+  -H ^"sec-fetch-mode: navigate^" ^
+  -H ^"sec-fetch-site: none^" ^
+  -H ^"sec-fetch-user: ?1^" ^
+  -H ^"upgrade-insecure-requests: 1^" ^
+  -H ^"user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0^" &
+  -H ^"accept: */*^" ^
+  -H ^"accept-language: en-GB,en;q=0.9,zh-CN;q=0.8,zh;q=0.7^" ^
+  -H ^"content-type: text/plain;charset=UTF-8^" ^
+  -H ^"dnt: 1^" ^
+  -H ^"origin: https://ntp.msn.com^" ^
+  -H ^"priority: u=4, i^" ^
+  -H ^"referer: https://ntp.msn.com/^" ^
+  -H ^"sec-ch-ua: ^\^"Chromium^\^";v=^\^"136^\^", ^\^"Microsoft Edge^\^";v=^\^"136^\^", ^\^"Not.A/Brand^\^";v=^\^"99^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?0^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Windows^\^"^" ^
+  -H ^"sec-fetch-dest: empty^" ^
+  -H ^"sec-fetch-mode: no-cors^" ^
+  -H ^"sec-fetch-site: same-site^" ^
+  -H ^"sec-ms-gec: D8C7144C91E6B93538EF5E802BCB44B1CC0B139758CAF7C7A4920988DF08263F^" ^
+  -H ^"sec-ms-gec-version: 1-136.0.3240.76^" ^
+  -H ^"user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0^" ^
+  -H ^"x-client-data: eyIxIjoiNSIsIjIiOiIxIiwiMyI6IjAiLCI0IjoiLTEyNjgwMjU3NTU5MTI5NDM2MjciLCI2Ijoic3RhYmxlIiwiOSI6ImRlc2t0b3AifQ==^" ^
+  -H ^"x-edge-shopping-flag: 0^" ^
+curl "https://dl.dell.com/FOLDER11402326M/1/IM_Web_v6.2.7.0.zip" \
+  -H "DNT: 1" \
+  -H "Upgrade-Insecure-Requests: 1" \
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" \
+  -H "sec-ch-ua: \"Chromium\";v=\"136\", \"Microsoft Edge\";v=\"136\", \"Not.A/Brand\";v=\"99\"" \
+  -H "sec-ch-ua-mobile: ?0" \
+cmd
+$session = New-Object Microsoft.PowerShell.Commands.WebRequestSession
+$session.UserAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0"
+Invoke-WebRequest -UseBasicParsing -Uri "https://dl.dell.com/FOLDER11402326M/1/IM_Web_v6.2.7.0.zip" ``
+-WebSession $session ``
+-Headers @{`
+"DNT"="1"`
+  "Upgrade-Insecure-Requests"="1"`
+  "sec-ch-ua"="`"Chromium`";v=`"136`", `"Microsoft Edge`";v=`"136`", `"Not.A/Brand`";v=`"99`""`
+  "sec-ch-ua-mobile"="?0"`
+  "sec-ch-ua-platform"="`"Windows`""`
+}
+scoop install aWCC
+ls
+rm curl
+rm.gitconfig
+rm .gitconfig
+rm -H
+rm \-H
+ls
+rm \-H
+exp
+scoop update
+scoop install aWCC
+scoop update ;scoop install awcc
+scoop update ; scoop uninstall awcc ; scoop install awcc
+scoop uninstall awcc ; scoop install awcc
+scoop update ; scoop uninstall awcc ; scoop install awcc
+C:\Users\bakam\scoop\apps\awcc\current\AWCCInstallationManager.exe
+spf  --v
+spf  -h
+scoop cat superfile
+spf
+exit
+spf
+scoop uninstall superfile
+exit
+ls .reg
+ls *.reg
+copy NoNetHood.reg New.reg
+code New.reg
+code code.cmd
+scoop search aria
+scoop install aria-ng-gui
+scoop search ProcExplorer
+scoop search ProcMon
+scoop bucket add sysinternals
+scoop bucket list
+`
+scoop install procmon
+scoop search sysinternal
+scoop install sysinternals
+scoop uninstall procmon
+scoop install sysinternals
+DiskView
+ru
+ADExplorer
+git pull
+scoop export
+exit
+git add . ; git commit -m "update"    ;  git push  ; scoop update
+get-appxPackage  -AllUsers| Where-Object { $_.NonRemovable -eq $True }| Where-Object { $_.IsFramework -eq $True } | Select-Object Name
+exit
+get-appxPackage  -AllUsers| Where-Object { $_.NonRemovable -eq $True }| Where-Object { $_.IsFramework -eq $True } | Select-Object Name
+Get-AppxPackage -AllUsers | Where-Object { $_.NonRemovable -eq $True } | Where-Object { $_.IsFramework -eq $True } | Select-Object Name
+exit
+sfc /scannow
+Get-AppxPackage -AllUsers | Where-Object { $_.NonRemovable -eq $True } | Where-Object { $_.IsFramework -eq $True } | Select-Object Name
+Get-appxPackage
+Get-AppxPackage
+get-executionPolicy
+get-windowsUpdate 
+get-AppxPackage
+powershell -version
+powershell version
+Get-AppxPackage -AllUsers | Where-Object { $_.NonRemovable -eq $Flase } | Where-Object { $_.IsFramework -eq $True } | Select-Object Name
+Get-AppxPackage -AllUsers | Where-Object { $_.NonRemovable -eq $Flase } | Where-Object { $_.IsFramework -eq $Flase } | Select-Object Name
+get-AppxPackage
+remove-appxpackage Microsoft.YourPhone
+remove-appxpackage 
+Get-History | Where-Object { $_.CommandLine -like "*Remove-AppxPackage*" }
+Get-History | Where-Object { $_.CommandLine -like "*remove-appxpackage*" }
+$PROFILE
+code $PROFILE
+$PROFILE
+.$PROFILE
+. $PROFILE
+C:\Users\bakam\OneDrive\文档\PowerShell\Microsoft.PowerShell_profile.ps1
+Get-History | Where-Object { $_.CommandLine -like "*remove-appxpackage*" }
+remove-appxpackage
+CimCmdlets\Get-CimInstance
+Install-Module -Name PSReadLine -AllowClobber -Force
+$Env:APPDATA\Microsoft\Windows\PowerShell\PSReadLine
+$Env:APPDATA\Microsoft\Windows\PowerShell\
+explorer $Env:APPDATA\Microsoft\Windows\PowerShell\PSReadLine
+Get-AppxPackage -AllUsers | Select Name, PackageFullName
+get-AppxPackage  -AllUsers| Where-Object { $_.NonRemovable -eq $False }| Where-Object { $_.IsFramework -eq $False } | Where-Object { $_.PackageUserInformation -notlike "*Staged*" } | Select-Object Name
+get-AppxPackage  -AllUsers| Where-Object { $_.NonRemovable -eq $False }| Where-Object { $_.IsFramework -eq $False } |  Select-Object Name
+get-AppxPackage  6365217CE6EB4
+get-AppxPackage  Microsoft.6365217CE6EB4
+Get-AppxPackage -Name Microsoft.6365217CE6EB4 | Format-List *
+Get-AppxPackage -Name MicrosoftWindows.Client.WebExperience
