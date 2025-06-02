@@ -8,6 +8,5 @@
         "script": [
             "Start-Process -FilePath \"$dir\\vs_BuildTools.exe\" -ArgumentList \"--wait\", \"--norestart\" -Wait -NoNewWindow"
         ]
-    },
-    "bin": "vs_setup.exe"
+    }
 }
