@@ -11,7 +11,7 @@
         }
     },
     "bin": [
-        "7z.exe",
+        "7z.exe"
     ],
     "post_install": [
     	"Remove-Item -Path \"$dir\\7zFM.exe\",  \"$dir\\7zG.exe\" ",

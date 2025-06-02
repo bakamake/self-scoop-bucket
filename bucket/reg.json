@@ -9,11 +9,10 @@
     "autoupdate": {
         "version": "$version"
     },
-    "shortcuts": [
-        [
-            "RegOrganizer.exe",
-            "RegOrganizer"
+    "installer": {
+        "script": [
+            "Start-Process -FilePath \"$dir\\reg-organizer-setup.exe\" -ArgumentList \"--wait\", \"--norestart\" -Wait -NoNewWindow"
         ]
-    ]
+    }
 
 }
