@@ -1,6 +1,6 @@
 {
     "version": "9.71",
-    "url": "https://files.chemtable.com/ro/portable/reg-organizer-portable-setup.exe",
+    "url": "https://files.chemtable.com/ro/reg-organizer-setup.exe",
     "innosetup": "true",
     "checkver": {
         "url": "https://www.chemtable.com/organizer.htm",
