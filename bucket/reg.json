@@ -10,7 +10,7 @@
     },
     "installer": {
         "script": [
-            "Start-Process -FilePath \"$dir\\reg-organizer-setup.exe\" -ArgumentList \"/LOG=\"dir\"\", \"/VERYSILENT\", \"/DIR=\"$dir\"\", "
+            "Start-Process -FilePath \"`$dir\\reg-organizer-setup.exe\" -ArgumentList \"/LOG=`\"`$dir`\"\", \"/VERYSILENT\", \"/DIR=`\"`$dir`\"\""
         ] 
     }
 
