@@ -11,5 +11,6 @@
             "CapCut.exe",
             "CapCut"
         ]
-    ]
+    ],
+    "post_install":"Get-ChildItem -Path $dir -Filter \"*update*.exe\" -Recurse -File | Remove-Item -Force"
 }
