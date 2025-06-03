@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+; 以下注册表项用于启用 Windows 启动和关闭过程中的详细状态消息
+; 位置：HKEY_LOCAL_MACHINESOFTWAREMicrosoftWindowsCurrentVersionPoliciesSystem
+; 键值：VerboseStatus，类型为 DWORD，设置为 1 表示启用详细状态消息
+; 详细状态消息会在启动和关闭时显示更多操作信息，便于排查问题
+[HKEY_LOCAL_MACHINESOFTWAREMicrosoftWindowsCurrentVersionPoliciesSystem]
+VerboseStatus=dword00000001
