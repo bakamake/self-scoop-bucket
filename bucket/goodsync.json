@@ -1,0 +1,26 @@
+{
+    "version": "24.09",
+    "description": "A multi-format file archiver with high compression ratios",
+    "homepage": "https://www.7-zip.org/",
+    "license": "LGPL-2.1-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://www.goodsync.com/download/GoodSync-vsub-Setup.msi",
+            "hash": "6d4c374cb1d0afe34a6a5a552021c2bd80a79e8ff0165f1b13b8a2b09560e229"
+        }
+    },
+    "bin": [
+        "goodsync.exe"
+    ],
+    "checkver": {
+        "url": "https://www.7-zip.org/download.html",
+        "regex": "Download 7-Zip ([\\d.]+) \\(\\d{4}-\\d{2}-\\d{2}\\)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.7-zip.org/a/7z$cleanVersion-x64.msi"
+            }
+        }
+    }
+}

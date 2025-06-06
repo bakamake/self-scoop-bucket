@@ -1,0 +1,25 @@
+{
+    "version": "1.91.2",
+    "description": "AiPPT - An AI-powered tool for creating presentations.",
+    "homepage": "https://aippt.com/",
+    "license": "Proprietary",
+    "url": "https://github.com/lobehub/lobe-chat/releases/download/v1.91.2/LobeHub-Beta-1.91.2-setup.exe#dl.7z",
+    
+    "architecture": {
+        "64bit": {
+            "installer": {
+                "script": [
+                    "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+                    "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall*\" -Force -Recurse"
+                ]
+            }
+        }
+    },
+    "bin": "LobeHub.exe",
+    "shortcuts": [
+        [
+            "LobeHub.exe",
+            "LobeHub"
+        ]
+    ]
+}
