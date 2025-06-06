@@ -5,8 +5,7 @@
     "license": "LGPL-2.1-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://www.goodsync.com/download/GoodSync-vsub-Setup.msi",
-            "hash": "6d4c374cb1d0afe34a6a5a552021c2bd80a79e8ff0165f1b13b8a2b09560e229"
+            "url": "https://www.goodsync.com/download/GoodSync-vsub-Setup.exe"
         }
     },
     "bin": [
