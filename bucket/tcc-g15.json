@@ -1,0 +1,22 @@
+{
+    "version": "1.6.4",
+    "description": "Thermal Control Center for G15 laptops (and potentially others)",
+    "homepage": "https://github.com/AlexIII/tcc-g15",
+    "license": "MIT",
+    "url": "https://github.com/AlexIII/tcc-g15/releases/download/1.6.4/Thermal.Control.Center.v1.6.4.exe",
+    "hash": "将此处替换为实际的 SHA256 哈希值",
+    "bin": "Thermal.Control.Center.v1.6.4.exe",
+    "shortcuts": [
+        [
+            "Thermal.Control.Center.v1.6.4.exe",
+            "Thermal Control Center"
+        ]
+    ],
+    "checkver": {
+        "github": "AlexIII/tcc-g15"
+    },
+    "autoupdate": {
+        "url": "https://github.com/AlexIII/tcc-g15/releases/download/$version/Thermal.Control.Center.v$version.exe",
+        "bin": "Thermal.Control.Center.v$version.exe"
+    }
+}
