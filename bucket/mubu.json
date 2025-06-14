@@ -1,0 +1,24 @@
+{
+    "version": "5.0.2",
+    "description": "AiPPT - An AI-powered tool for creating presentations.",
+    "homepage": "",
+    "license": "Proprietary",
+    "url": "https://assets.mubu.com/client/Mubu-5.0.2.exe#dl.7z",
+    "architecture": {
+        "64bit": {
+            "installer": {
+                "script": [
+                    "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\"",
+                    "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall*\" -Force -Recurse"
+                ]
+            }
+        }
+    },
+    "bin": "幕布.exe",
+    "shortcuts": [
+        [
+            "幕布.exe",
+            "mubu"
+        ]
+    ],
+}

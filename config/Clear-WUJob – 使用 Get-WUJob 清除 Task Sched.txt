@@ -1,0 +1,23 @@
+Clear-WUJob – 使用 Get-WUJob 清除 Task Scheduler 中的 WUJob；
+Download-WindowsUpdate（别名 Get-WindowsUpdate –Download）——获取更新列表并下载它们；
+Get-WUInstall、Install-WindowsUpdate（别名Get-WindowsUpdate –Install）——安装 Windows 更新；
+Hide-WindowsUpdate（别名Get-WindowsUpdate -Hide:$false）——隐藏更新；
+Uninstall-WindowsUpdate – 使用 Remove-WindowsUpdate 删除更新；
+Add-WUServiceManager——在电脑上注册更新服务器（Windows Update Service Manager）；
+Enable-WURemoting —启用 Windows Defender 防火墙规则以允许远程使用 PSWindowsUpdate cmdlet；
+Get-WindowsUpdate (Get-WUList) — 显示符合指定条件的更新列表，允许您查找和安装更新。这是 PSWindowsUpdate 模块的主要 cmdlet。允许从 WSUS 服务器或 Microsoft Update 下载和安装更新。允许您在安装更新时选择更新类别、特定更新并设置计算机重启规则；
+Get-WUApiVersion – 获取电脑上的 Windows Update Agent 版本；
+Get-WUHistory – 显示已安装更新列表（更新历史）；
+Get-WUInstallerStatus — 检查 Windows Installer 服务状态；
+Get-WUJob – 检查任务计划程序中的 WUJob 更新任务；
+Get-WULastResults — 上次搜索和安装更新的日期（LastSearchSuccessDate和LastInstallationSuccessDate）；
+Get-WURebootStatus — 允许您检查是否需要重新启动才能应用特定更新；
+Get-WUServiceManager – 列出更新源；
+Get-WUSettings – 获取 Windows Update 客户端设置；
+Invoke-WUJob——远程调用Task Scheduler中的WUJobs任务，立即执行PSWindowsUpdate命令；
+Remove-WindowsUpdate – 允许通过 KB ID 卸载更新；
+Remove-WUServiceManager – 禁用 Windows 更新服务管理器；
+Set-PSWUSettings – 将 PSWindowsUpdate 模块设置保存到 XML 文件；
+Set-WUSettings – 配置 Windows Update 客户端设置；
+Update-WUModule – 更新 PSWindowsUpdate 模块（您可以通过从当前模块复制或从 PSGallery 更新来更新远程计算机上的模块）；
+Reset-WUComponents –允许您将计算机上的 Windows Update 代理重置为默认状态。
