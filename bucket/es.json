@@ -1,0 +1,9 @@
+{
+    "version": "1.1.0.30",
+    "description": "Everything Search Engine - 快速定位文件和文件夹 (命令行工具: es.exe)。",
+    "homepage": "https://www.voidtools.com/",
+    "license": "Freeware",
+    "url": "https://www.voidtools.com/ES-1.1.0.30.x64.zip",
+    "hash": "5021287113192023223071321202220222022202220222022202220222022202",
+    "bin": "es.exe"
+}
