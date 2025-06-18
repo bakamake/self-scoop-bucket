@@ -21,4 +21,8 @@
             "aippt"
         ]
     ],
+    "checkver": {
+        "url": "https://www.aippt.cn/log-update",
+        "regex": "([\\d/]+)"
+    }
 }
