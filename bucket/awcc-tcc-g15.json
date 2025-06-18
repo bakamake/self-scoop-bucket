@@ -16,7 +16,6 @@
         "github": "AlexIII/tcc-g15"
     },
     "autoupdate": {
-        "url": "https://github.com/AlexIII/tcc-g15/releases/download/$version/Thermal.Control.Center.v$version.exe",
-        "bin": "Thermal.Control.Center.v$version.exe"
+        "github": "https://github.com/AlexIII/tcc-g15"
     }
 }
