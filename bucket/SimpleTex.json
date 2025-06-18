@@ -1,0 +1,30 @@
+{
+    "version": "0.2.10",
+    "description": "一款AI驱动的智能且方便的公式/文档识别编辑软件平台",
+    "homepage": "https://simpletex.cn/",
+    "license": "Proprietary",
+    "url": "https://update.simpletex.cn/publish/electron/win32/SimpleTex%20Setup%200.2.11.zip",
+    "architecture": {
+        "64bit": {
+            "installer": {
+                "script": [
+                    "Expand-7ZipArchive \"SimpleTex Setup 0.2.11.zip\" \"$dir\\\"",
+                    "Expand-7ZipArchive \"SimpleTex Setup 0.2.11.exe\" \"$dir\\\"",
+                    "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+                    "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall*\" -Force -Recurse"
+                ]
+            }
+        }
+    },
+    "bin": "SimpleTex.exe",
+    "shortcuts": [
+        [
+            "SimpleTex.exe",
+            "SimpleTex"
+        ]
+    ],
+        "checkver": {
+        "url": "https://doc.simpletex.cn/zh/updates/",
+        "regex": "v([\\d.]+)"
+    }
+}
