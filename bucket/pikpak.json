@@ -6,7 +6,7 @@
     "url": "https://download.mypikpak.net/desktop/official_PikPak.exe#dl.7z",
     "installer": {
         "script": [
-            "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\" #scoop 提供的辅助函数",  
+            "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\"",  
             "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall*\" -Force -Recurse"
         ]
     }

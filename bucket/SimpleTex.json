@@ -9,7 +9,8 @@
             "installer": {
                 "script": [
                     "Expand-7ZipArchive \"SimpleTex Setup 0.2.11.zip\" \"$dir\\\"",
-                    "Expand-7ZipArchive \"SimpleTex Setup 0.2.11.exe\" \"$dir\\\"",
+                    "mv \"$dir\\SimpleTex Setup 0.2.11.exe\" \"$dir\\SimpleTex Setup 0.2.11.zip\"",
+                    "Expand-7ZipArchive \"SimpleTex Setup 0.2.11.zip\" \"$dir\\\"",
                     "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                     "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall*\" -Force -Recurse"
                 ]
