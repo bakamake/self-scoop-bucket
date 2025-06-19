@@ -6,7 +6,6 @@
     "url": "https://download.microsoft.com/download/8/5/c/85c25433-a1b0-4ffa-9429-7e023e7da8d8/LGPO.zip",
     "installer": {
         "script": [
-            "Expand-7zipArchive \"$dir\\LGPO.zip\" \"$dir\"",
             "Move-Item \"$dir\\LGPO_30\\LGPO.exe\" \"$dir\""
         ]
     },
