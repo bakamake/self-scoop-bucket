@@ -1,9 +1,9 @@
 {
-    "version": "latest",
+    "version": "1.0.0",
     "description": "AiPPT - An AI-powered tool for creating presentations.",
     "homepage": "https://aippt.com/",
     "license": "Proprietary",
-    "url": "https://aippt-domestic.aippt.com/ppt-sop/0/1/package/AiPPT-win-x64.exe#dl.7z",
+    "url": "https://aippt-domestic.oss-cn-beijing.aliyuncs.com/nvidia/aipc-electron-1.0.0-setup.exe#dl.7z",
     "architecture": {
         "64bit": {
             "installer": {
@@ -23,6 +23,6 @@
     ],
     "checkver": {
         "url": "https://www.aippt.cn/log-update",
-        "regex": "([\\d/]+)"
+        "regex": "([\\d]+)"
     }
 }

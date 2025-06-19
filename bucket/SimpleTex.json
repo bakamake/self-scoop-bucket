@@ -8,7 +8,7 @@
         "64bit": {
             "installer": {
                 "script": [
-                    "Move-Item \"$dir\\SimpleTex Setup 0.2.11.exe\" \"$dir\\0.2.11.zip\"",
+                    "Move-Item \"$dir\\SimpleTex Setup 0.2.11.exe\" \"$dir\\0.2.11.zip\"  #好像实际上不需要，只需要修改下一个函数",
                     "Expand-7ZipArchive \"$dir\\0.2.11.zip\" \"$dir\\\"",
                     "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                     "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall*\" -Force -Recurse"
@@ -25,6 +25,6 @@
     ],
         "checkver": {
         "url": "https://doc.simpletex.cn/zh/updates/",
-        "regex": "v([\\d.]+)"
+        "regex": ""
     }
 }
