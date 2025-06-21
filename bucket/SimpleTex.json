@@ -1,5 +1,5 @@
 {
-    "version": "0.2.11",
+    "version": "0.2.10",
     "description": "一款AI驱动的智能且方便的公式/文档识别编辑软件平台",
     "homepage": "https://simpletex.cn/",
     "license": "Proprietary",
@@ -25,6 +25,6 @@
     ],
         "checkver": {
         "url": "https://doc.simpletex.cn/zh/updates/",
-        "regex": ""
+        "regex": "最新版本 - (v[\\d.]+)"
     }
 }
