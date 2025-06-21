@@ -1,0 +1,27 @@
+{
+    "version": "1.6.7",
+    "description": "Tomato Novel Downloader - 免费小说下载工具",
+    "homepage": "https://github.com/zhongbai2333/Tomato-Novel-Downloader",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/zhongbai2333/Tomato-Novel-Downloader/releases/download/v1.6.7/TomatoNovelDownloader-Win64-v1.6.7.exe"
+        }
+    },
+    "bin": [
+        [
+            "TomatoNovelDownloader-Win64-v1.6.7.exe",
+            "Tomato"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/zhongbai2333/Tomato-Novel-Downloader"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/zhongbai2333/Tomato-Novel-Downloader/releases/download/v$version/TomatoNovelDownloader-Win64-v$version.exe"
+            }
+        }
+    }
+}
