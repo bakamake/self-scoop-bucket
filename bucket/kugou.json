@@ -1,5 +1,5 @@
 {
-    "version": "20.0.41",
+    "version": "20.0.52",
     "description": "Hello, KuGou!",
     "homepage": "https://www.kugou.com/",
     "license": {
@@ -22,7 +22,7 @@
         ]
     ],
     "persist": [
-	"Lyric",
+        "Lyric",
         "Download"
     ],
     "checkver": {

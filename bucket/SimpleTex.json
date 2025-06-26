@@ -25,6 +25,6 @@
     ],
         "checkver": {
         "url": "https://doc.simpletex.cn/zh/updates/",
-        "regex": "最新版本 - (v[\\d.]+)"
+        "regex": "最新版本 - v([\\d.]+)"
     }
 }
