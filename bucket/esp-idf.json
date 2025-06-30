@@ -1,0 +1,6 @@
+{
+    "name": "ESP-IDF",
+    "description": "Espressif IoT Development Framework",
+    "url": "https://dl.espressif.cn/dl/idf-installer/esp-idf-tools-setup-offline-5.4.1.exe",
+    "version": "5.4.1"
+}
