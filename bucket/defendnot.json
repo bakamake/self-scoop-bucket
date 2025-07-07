@@ -5,4 +5,5 @@
     "homepage": "https://github.com/es3n1n/defendnot",
     "license": "MIT",
     "url": "https://github.com/es3n1n/defendnot/releases/download/v1.3.0/x64.zip",
+    "bin": "defendnot-loader.exe"
 }
