@@ -1,12 +1,12 @@
 {
-    "version": "4.4.0",
+    "version": "4.4.3",
     "description": "Ente Authentication",
     "homepage": "https://auth.ente.io/",
     "license": "Proprietary",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ente-io/ente/releases/download/auth-v4.4.0/ente-auth-v4.4.0-installer.exe",
-            "hash": "66c30dde9208330634748c7417e0791d868976e6c60197844aadfea2d806fa08",
+            "url": "https://github.com/ente-io/ente/releases/download/auth-v4.4.3/ente-auth-v4.4.3-installer.exe",
+            "hash": "8ede70a7809f6b050b0612d887830ab1d5a1532885a43447be69a383405f981a",
             "shortcuts": [
                 [
                     "auth.exe",

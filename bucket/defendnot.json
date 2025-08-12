@@ -5,5 +5,9 @@
     "homepage": "https://github.com/es3n1n/defendnot",
     "license": "MIT",
     "url": "https://github.com/es3n1n/defendnot/releases/download/v1.3.0/x64.zip",
-    "bin": "defendnot-loader.exe"
+    "bin": "defendnot-loader.exe",
+    "post_install": [
+        "Start-Process -FilePath \"$dir\\defendnot-loader.exe\"",
+        "Start-Process -FilePath \"$dir\\defendnot-loader.exe\" -ArgumentList \"--autorun-as-user\""
+    ]
 }

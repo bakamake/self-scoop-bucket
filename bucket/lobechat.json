@@ -1,12 +1,12 @@
 {
-    "version": "1.96.9",
+    "version": "1.111.10",
     "description": "Engineer Assistant functionalities tailored to your private desires, tackle challenges, boost productivity, and navigate the frontier of workflow in LobeChat.",
     "homepage": "https://lobehub.com/",
     "license": "Proprietary",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/lobehub/lobe-chat/releases/download/v1.96.9/LobeHub-Beta-1.96.9-setup.exe#dl.7z",
-            "hash": "4ba7c2f8ddc16e23f535c4e66cb87f8a52af83d36f7af56626a3ce4f41c679fd",
+            "url": "https://github.com/lobehub/lobe-chat/releases/download/v1.111.10/LobeHub-Beta-1.111.10-setup.exe#dl.7z",
+            "hash": "1884674078319f4dbf163ae3b2b9597d8539ad4692b18208eceeaa1cd48fcdfa",
             "installer": {
                 "script": [
                     "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",

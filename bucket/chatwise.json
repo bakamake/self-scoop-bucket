@@ -1,12 +1,12 @@
 {
     "homepage": "https://chatwise.app/",
     "description": "Fast AI Chatbot for any LLM",
-    "version": "0.8.71",
+    "version": "0.8.98",
     "license": "Proprietary",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/egoist/chatwise-releases/releases/download/v0.8.71/ChatWise_0.8.71_x64-setup.exe#/dl.7z",
-            "hash": "d5756750422c10c4eba3d4d4e270d1a911239c9f7fee8eeac5c7ba0d0b7ce51d"
+            "url": "https://github.com/egoist/chatwise-releases/releases/download/v0.8.98/ChatWise_0.8.98_x64-setup.exe#/dl.7z",
+            "hash": "897a0510bb780583122996930890255d799d83f018c9651f3a95985833c389ca"
         }
     },
     "bin": "chatwise.exe",
