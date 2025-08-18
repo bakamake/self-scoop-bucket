@@ -1,9 +1,9 @@
 {
-    "version": "1.10.1_3031",
+    "version": "1.10.3_3047",
     "description": "IMA Copilot - An AI-powered assistant application",
     "homepage": "https://ima.qq.com/download",
     "license": "Unknown",
-    "url": "https://ima-app.image.myqcloud.com/win_channel/ima.copilot_win_x64_10000074_1.10.1_3031.exe#/dl.7z",
+    "url": "https://ima-app.image.myqcloud.com/win_channel/ima.copilot_win_x64_10000074_1.10.3_3047.exe#/dl.7z",
         "installer": {
         "script": [
             "Expand-7zipArchive \"$dir\\chrome.7z\" \"$dir\"",
