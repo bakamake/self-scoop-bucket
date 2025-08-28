@@ -9,8 +9,8 @@
     "post_install": [
         "Remove-Item -Path \"$dir\\`$PLUGINSDIR\" -Recurse"
     ],
-    "bin":  ["WeChat.exe" ,"weixin"],
-    "shortcuts": ["WeChat.exe","weixin"],
+    "bin":  [["WeChat.exe" ,"weixin"]],
+    "shortcuts": [["WeChat.exe" ,"weixin"]],
     "checkver": "下载\\s*([\\d.]+)",
     "autoupdate": {
         "version": {
