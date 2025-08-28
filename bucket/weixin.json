@@ -7,9 +7,10 @@
     },
     "url": "https://dldir1.qq.com/weixin/Windows/WeChatSetup.exe#/dl.7z",
     "post_install": [
-        "Remove-Item -Path \"$dir\\`$PLUGINSDIR\" -Recurse",
-        "Remove-Item -Path  \"$dir\\install.7z\"  "
+        "Remove-Item -Path \"$dir\\`$PLUGINSDIR\" -Recurse"
     ],
+    "bin":  ["WeChat.exe" ,"weixin"],
+    "shortcuts": ["WeChat.exe","weixin"],
     "checkver": "下载\\s*([\\d.]+)",
     "autoupdate": {
         "version": {
