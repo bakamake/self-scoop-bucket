@@ -21,6 +21,7 @@
             "KuGou"
         ]
     ],
+    "bin": "kugou.exe",
     "persist": [
         "Lyric",
         "Download"
