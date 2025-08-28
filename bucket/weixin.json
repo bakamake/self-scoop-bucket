@@ -6,7 +6,6 @@
         "identifier": "Proprietary"
     },
     "url": "https://dldir1.qq.com/weixin/Windows/WeChatSetup.exe#/dl.7z",
-    "pre_install": "Expand-7ZipArchive \"$dir\\install.7z\" \"$dir\"",
     "post_install": [
         "Remove-Item -Path \"$dir\\`$PLUGINSDIR\" -Recurse",
         "Remove-Item -Path  \"$dir\\install.7z\"  "
