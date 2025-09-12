@@ -8,7 +8,7 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://download2.typoraio.cn/windows/typora-setup-x64.exe",
+            "url": "https://downloads.typoraio.cn/windows/typora-setup-x64-1.11.7.exe",
             "hash": "58fb7a2c98fdd2b044ed2b8cceba0770c0dc11156c89f961714a79d92b8b98ab"
         }
     },
@@ -27,7 +27,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download2.typoraio.cn/windows/typora-setup-x64.exe"
+                "url": "https://downloads.typora.cn/windows/typora-setup-x64-$version.exe"
             }
         }
     }
