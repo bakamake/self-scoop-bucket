@@ -6,7 +6,6 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/2dust/v2rayN/releases/download/7.14.9/v2rayN-windows-64-SelfContained.zip",
-            "hash": "2d08a9b770f345e9ea2dd9e6c3973ab2ce294c3198e19c7d8853acf016dc397e",
             "extract_dir": "v2rayN-windows-64-SelfContained"
         }
     },
