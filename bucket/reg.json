@@ -9,11 +9,6 @@
     "autoupdate": {
         "version": "$version"
     },
-    "installer": {
-    "script": [
-        "Copy-Item \"$dir\\{app}\\*\" \"$dir\" -Force -Recurse | Out-Null"
-        ]
-    },
     "bin": [["RegOrganizerPortable.exe","Reg"]],
     "shortcuts": [["RegOrganizerPortable.exe","Reg"]]
 }
