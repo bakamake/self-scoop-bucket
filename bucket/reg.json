@@ -16,5 +16,7 @@
         "Remove-Item \"$dir\\{tmp}\" -Force -Recurse | Out-Null",
         "Remove-Item \"$dir\\install_script.iss\" -Force -Recurse | Out-Null"
         ]
-    }
+    },
+    "bin": [["RegOrganizerPortable.exe","Reg"]],
+    "shortcuts": [["RegOrganizerPortable.exe","Reg"]]
 }
