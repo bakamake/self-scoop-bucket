@@ -8,7 +8,7 @@
         "64bit": {
             "url": "https://github.com/2dust/v2rayN/releases/download/7.14.9/v2rayN-windows-64-SelfContained.zip",
             "extract_dir": "v2rayN-windows-64-SelfContained",
-            "hash": "6406fec5c456fd1e9cde5eb68d38b1d5cb0452a0769afd97e0ec7d3f9fad4324"
+            "hash": "806fc2eb6150c98f58374f3fac998cf5addc1b282514a2e30ca013c2f3c95979"
         }
     },
     "bin": "v2rayN.exe",
