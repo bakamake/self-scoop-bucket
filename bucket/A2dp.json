@@ -5,5 +5,9 @@
     "license": "Proprietary",
     "homepage": "https://www.bluetoothgoodies.com/a2dp/",
     "installer": {
-        "script": ["mv \"$dir\\Luculent Systems\\AltA2DP\\*\" \"$dir\""]
+        "script": 
+        [
+            "mv \"$dir\\Luculent Systems\\AltA2DP\\*\" \"$dir\""
+        ]
+    }
 }
