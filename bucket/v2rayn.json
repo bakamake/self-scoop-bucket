@@ -6,9 +6,9 @@
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://sourceforge.net/projects/v2rayn.mirror/files/7.14.9/v2rayN-windows-64-SelfContained.zip/download",
+            "url": "https://github.com/2dust/v2rayN/releases/download/7.14.9/v2rayN-windows-64-SelfContained.zip",
             "extract_dir": "v2rayN-windows-64-SelfContained",
-            "hash": "806fc2eb6150c98f58374f3fac998cf5addc1b282514a2e30ca013c2f3c95979"
+            "hash": "6406fec5c456fd1e9cde5eb68d38b1d5cb0452a0769afd97e0ec7d3f9fad4324"
         }
     },
     "bin": "v2rayN.exe",
@@ -22,7 +22,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://sourceforge.net/projects/v2rayn.mirror/files/$version/v2rayN-windows-64-SelfContained.zip/download"
+                "url": "https://github.com/2dust/v2rayN/releases/download/$version/v2rayN-windows-64-SelfContained.zip"
             }
         }
     }
