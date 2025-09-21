@@ -1,5 +1,5 @@
 {
-    "version": "1.11.7",
+    "version": "1.12.1",
     "description": "A minimal Markdown editor and reader",
     "homepage": "https://typora.io",
     "license": {
@@ -8,7 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://downloads.typora.io/windows/typora-setup-x64.exe"
+            "url": "https://downloads.typora.io/windows/typora-setup-x64.exe",
+            "hash": "30ae6fa152f5090b10353f6fed3b8b7531653c4b1fd8a0976af9ac376c620d9a"
         }
     },
     "innosetup": true,
