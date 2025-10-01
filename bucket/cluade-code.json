@@ -3,7 +3,7 @@
     "version": "2.0.1",
     "installer": {
         "script": [
-            "iex /$dir"
+            "iex /$dir//install.ps1"
         ]
     }
 }
