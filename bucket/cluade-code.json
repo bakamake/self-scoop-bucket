@@ -4,8 +4,8 @@
     "installer": {
         "script": [
             "iex \"$dir/install.ps1\"",
-            "mv \"C:/Users/bakam/.local/bin/claude.exe\" \"$dir/claude.exe\""
+            "mv \"C:/Users/bakam/.local\" \"$dir/\""
         ]
     },
-    "bin": "claude.exe"
+    "bin": "$dir/bin/claude.exe"
 }
