@@ -1,4 +1,9 @@
 {
-    "url": "https://registry.npmmirror.com/@anthropic-ai/claude-code/-/claude-code-2.0.1.tgz",
-    "version": "2.0.1"
+    "url": "https://claude.ai/install.ps1",
+    "version": "2.0.1",
+    "installer": {
+        "script": [
+            "iex /$dir"
+        ]
+    }
 }
