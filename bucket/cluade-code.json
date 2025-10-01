@@ -3,7 +3,8 @@
     "version": "2.0.1",
     "installer": {
         "script": [
-            "iex \"$dir/install.ps1\""
+            "iex \"$dir/install.ps1\"",
+            "mv \"C:/Users/bakam/.local/bin/claude.exe\" \"$dir/claude.exe\""
         ]
     }
 }
