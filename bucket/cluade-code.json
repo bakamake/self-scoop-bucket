@@ -7,5 +7,5 @@
             "mv \"C:/Users/bakam/.local\" \"$dir/\""
         ]
     },
-    "bin": "$dir/bin/claude.exe"
+    "bin": ".local/bin/claude.exe"
 }
