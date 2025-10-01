@@ -6,5 +6,6 @@
             "iex \"$dir/install.ps1\"",
             "mv \"C:/Users/bakam/.local/bin/claude.exe\" \"$dir/claude.exe\""
         ]
-    }
+    },
+    "bin": "claude.exe"
 }
