@@ -1,0 +1,13 @@
+{
+    "url": "https://claude.ai/install.ps1",
+    "version": "2.0.1",
+    "installer": {
+        "script": [
+            "$env:CLAUDE_CODE_GIT_BASH_PATH=\"C:\\\\Users\\bakam\\scoop\\apps\\git\\current\\git-bash.exe\"",
+            "iex \"$dir/install.ps1\"",
+            "mv \"C:/Users/bakam/.local\" \"$dir/\""
+        ]
+    },
+    "bin": ".local/bin/claude.exe",
+    "note": "You need to cd ~/.claude/settings.json and set your self ANTHROPIC_AUTH_TOKEN and ANTHROPIC_BASE_URL in env"
+}
