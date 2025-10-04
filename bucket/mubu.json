@@ -1,7 +1,7 @@
 {
     "version": "5.0.2",
-    "description": "AiPPT - An AI-powered tool for creating presentations.",
-    "homepage": "",
+    "description": "幕布，我最爱用的笔记软件。",
+    "homepage": "https://mubu.com/",
     "license": "Proprietary",
     "url": "https://assets.mubu.com/client/Mubu-5.0.2.exe#dl.7z",
     "architecture": {
@@ -20,5 +20,12 @@
             "幕布.exe",
             "mubu"
         ]
-    ]
+    ],
+    "checkver": {
+        "url": "https://mubu.com/doc/d5501245199",
+        "regex": "#电脑端 v([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://assets.mubu.com/client/Mubu-$version.exe#dl.7z"
+    }
 }
