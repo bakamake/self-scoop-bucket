@@ -43,13 +43,6 @@
         "usr\\bin\\tig.exe",
         "git-bash.exe"
     ],
-    "shortcuts": [
-        [
-            "git-bash.exe",
-            "Git Bash",
-            "--cd-to-home"
-        ]
-    ],
     "env_set": {
         "GIT_INSTALL_ROOT": "$dir"
     },
