@@ -3,7 +3,7 @@
     "version": "2.0.1",
     "installer": {
         "script": [
-            "$env:CLAUDE_CODE_GIT_BASH_PATH=\"C:\\\\Users\\bakam\\scoop\\apps\\git\\current\\git-bash.exe\"",
+            "$env:CLAUDE_CODE_GIT_BASH_PATH=\"$env:scoop\\apps\\git\\current\\git-bash.exe\"",
             "iex \"$dir/install.ps1\"",
             "mv \"C:/Users/bakam/.local\" \"$dir/\""
         ]
