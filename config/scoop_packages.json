@@ -1,0 +1,433 @@
+{
+  "apps": [
+    {
+      "Name": "7zip",
+      "Version": "25.01",
+      "Info": "",
+      "Source": "self",
+      "Updated": "2025-10-06T04:00:05.6394716+08:00"
+    },
+    {
+      "Name": "aria2",
+      "Version": "1.37.0-1",
+      "Info": "",
+      "Source": "main",
+      "Updated": "2025-10-06T03:58:23.4407337+08:00"
+    },
+    {
+      "Name": "Awcc-tcc-g15",
+      "Version": "1.6.4",
+      "Info": "",
+      "Source": "self",
+      "Updated": "2025-10-07T10:10:26.1035626+08:00"
+    },
+    {
+      "Name": "beyondcompare",
+      "Version": "5.1.5.31310",
+      "Info": "",
+      "Source": "extras",
+      "Updated": "2025-10-01T06:24:38.3391835+08:00"
+    },
+    {
+      "Name": "chatwise",
+      "Version": "0.9.28",
+      "Info": "",
+      "Source": "C:\\Users\\bakam\\scoop\\buckets\\self\\bucket\\chatwise.json",
+      "Updated": "2025-10-06T03:54:15.1942386+08:00"
+    },
+    {
+      "Name": "cluade-code",
+      "Version": "2.0.1",
+      "Info": "",
+      "Source": "self",
+      "Updated": "2025-10-02T08:21:19.0479071+08:00"
+    },
+    {
+      "Name": "cubox",
+      "Version": "0.2.6",
+      "Info": "",
+      "Source": "self",
+      "Updated": "2025-10-06T04:13:55.8782989+08:00"
+    },
+    {
+      "Name": "dark",
+      "Version": null,
+      "Info": "Install failed",
+      "Source": null,
+      "Updated": "2025-10-06T03:50:22.4363721+08:00"
+    },
+    {
+      "Name": "ddu",
+      "Version": null,
+      "Info": "Install failed",
+      "Source": null,
+      "Updated": "2025-10-06T03:50:22.4812232+08:00"
+    },
+    {
+      "Name": "defendnot",
+      "Version": "1.3.0",
+      "Info": "",
+      "Source": "self",
+      "Updated": "2025-10-06T04:12:33.1512176+08:00"
+    },
+    {
+      "Name": "driver",
+      "Version": "nightly-20250929",
+      "Info": "",
+      "Source": "self",
+      "Updated": "2025-09-29T22:28:13.5702567+08:00"
+    },
+    {
+      "Name": "ecopaste",
+      "Version": "0.5.0",
+      "Info": "",
+      "Source": "self",
+      "Updated": "2025-05-20T08:02:29.3858284+08:00"
+    },
+    {
+      "Name": "ente",
+      "Version": "4.4.4",
+      "Info": "",
+      "Source": "self",
+      "Updated": "2025-10-06T04:17:22.0793072+08:00"
+    },
+    {
+      "Name": "es",
+      "Version": "1.1.0.30",
+      "Info": "",
+      "Source": "self",
+      "Updated": "2025-10-06T04:18:11.1659972+08:00"
+    },
+    {
+      "Name": "everything",
+      "Version": "1.4.1.1028",
+      "Info": "",
+      "Source": "self",
+      "Updated": "2025-07-02T20:31:32.305547+08:00"
+    },
+    {
+      "Name": "Fences.np",
+      "Version": "6.0",
+      "Info": "",
+      "Source": "self",
+      "Updated": "2025-10-06T04:20:35.3925319+08:00"
+    },
+    {
+      "Name": "git",
+      "Version": "2.51.0.2",
+      "Info": "",
+      "Source": "self",
+      "Updated": "2025-10-06T03:58:00.1425764+08:00"
+    },
+    {
+      "Name": "groupy.np",
+      "Version": "2.0",
+      "Info": "",
+      "Source": "self",
+      "Updated": "2025-10-06T04:03:20.662096+08:00"
+    },
+    {
+      "Name": "innounp",
+      "Version": "2.65.2",
+      "Info": "",
+      "Source": "main",
+      "Updated": "2025-10-06T03:57:00.3835876+08:00"
+    },
+    {
+      "Name": "jetbrain-toolbox",
+      "Version": "2.9.0.56191",
+      "Info": "",
+      "Source": "self",
+      "Updated": "2025-09-19T11:34:12.8659598+08:00"
+    },
+    {
+      "Name": "kicad",
+      "Version": "9.0.4",
+      "Info": "",
+      "Source": "extras",
+      "Updated": "2025-09-19T20:57:44.3299567+08:00"
+    },
+    {
+      "Name": "kugou",
+      "Version": "20.0.61",
+      "Info": "",
+      "Source": "self",
+      "Updated": "2025-09-15T09:57:08.3977109+08:00"
+    },
+    {
+      "Name": "lessmsi",
+      "Version": "2.10.0",
+      "Info": "",
+      "Source": "main",
+      "Updated": "2025-09-30T18:13:19.9662415+08:00"
+    },
+    {
+      "Name": "LGPO",
+      "Version": "latest",
+      "Info": "",
+      "Source": "self",
+      "Updated": "2025-06-19T15:31:31.6305535+08:00"
+    },
+    {
+      "Name": "localsend",
+      "Version": "1.17.0",
+      "Info": "",
+      "Source": "extras",
+      "Updated": "2025-05-15T19:27:21.4349601+08:00"
+    },
+    {
+      "Name": "Maple-Mono-NF-CN",
+      "Version": "7.7",
+      "Info": "",
+      "Source": "nerd-fonts",
+      "Updated": "2025-09-15T11:19:50.9193229+08:00"
+    },
+    {
+      "Name": "mingit",
+      "Version": "2.51.0.2",
+      "Info": "",
+      "Source": "main",
+      "Updated": "2025-09-30T18:13:25.574145+08:00"
+    },
+    {
+      "Name": "monitoroff",
+      "Version": "0.2",
+      "Info": "",
+      "Source": "self",
+      "Updated": "2025-09-21T17:13:56.1754493+08:00"
+    },
+    {
+      "Name": "motrix",
+      "Version": "1.8.19",
+      "Info": "",
+      "Source": "extras",
+      "Updated": "2025-07-04T17:18:45.5561865+08:00"
+    },
+    {
+      "Name": "mubu",
+      "Version": "5.1.2",
+      "Info": "",
+      "Source": "self",
+      "Updated": "2025-10-05T04:18:39.7926039+08:00"
+    },
+    {
+      "Name": "nexttrace",
+      "Version": "1.4.2",
+      "Info": "",
+      "Source": "extras",
+      "Updated": "2025-09-15T11:22:05.6944314+08:00"
+    },
+    {
+      "Name": "Nexusfont",
+      "Version": "2.7.1",
+      "Info": "",
+      "Source": "extras",
+      "Updated": "2025-06-06T18:19:50.2108098+08:00"
+    },
+    {
+      "Name": "nvcleanstall",
+      "Version": "1.19.0",
+      "Info": "",
+      "Source": "extras",
+      "Updated": "2025-06-17T21:52:14.2766345+08:00"
+    },
+    {
+      "Name": "nvm",
+      "Version": "1.2.2",
+      "Info": "",
+      "Source": "main",
+      "Updated": "2025-05-19T07:41:21.2278078+08:00"
+    },
+    {
+      "Name": "Obsidian",
+      "Version": "1.9.12",
+      "Info": "",
+      "Source": "extras",
+      "Updated": "2025-09-15T13:00:31.5127852+08:00"
+    },
+    {
+      "Name": "openjdk",
+      "Version": "25-36",
+      "Info": "",
+      "Source": "java",
+      "Updated": "2025-09-19T11:41:45.5827576+08:00"
+    },
+    {
+      "Name": "ossutil",
+      "Version": "1.7.18",
+      "Info": "",
+      "Source": "main",
+      "Updated": "2025-06-27T04:38:36.7607261+08:00"
+    },
+    {
+      "Name": "pikpak",
+      "Version": "nightly-20251005",
+      "Info": "",
+      "Source": "self",
+      "Updated": "2025-10-05T13:39:53.3760045+08:00"
+    },
+    {
+      "Name": "reg",
+      "Version": "9.87",
+      "Info": "",
+      "Source": "self",
+      "Updated": "2025-10-07T14:55:08.1704258+08:00"
+    },
+    {
+      "Name": "rufus",
+      "Version": "4.10",
+      "Info": "",
+      "Source": "extras",
+      "Updated": "2025-09-30T18:13:31.4816161+08:00"
+    },
+    {
+      "Name": "scoop-search",
+      "Version": "2.1.0",
+      "Info": "",
+      "Source": "main",
+      "Updated": "2025-09-12T16:57:26.3705132+08:00"
+    },
+    {
+      "Name": "SimpleTex",
+      "Version": "0.2.11",
+      "Info": "",
+      "Source": "self",
+      "Updated": "2025-06-18T21:54:58.2811867+08:00"
+    },
+    {
+      "Name": "steam",
+      "Version": "nightly-20250601",
+      "Info": "",
+      "Source": "self",
+      "Updated": "2025-06-01T00:33:04.723207+08:00"
+    },
+    {
+      "Name": "stranslate",
+      "Version": "1.5.5.802",
+      "Info": "",
+      "Source": "extras",
+      "Updated": "2025-09-15T18:01:21.6678912+08:00"
+    },
+    {
+      "Name": "SumatraPDF",
+      "Version": "3.5.2",
+      "Info": "",
+      "Source": "extras",
+      "Updated": "2025-07-20T23:53:59.419346+08:00"
+    },
+    {
+      "Name": "sysinternals",
+      "Version": "20250916",
+      "Info": "",
+      "Source": "extras",
+      "Updated": "2025-09-19T11:47:30.3899056+08:00"
+    },
+    {
+      "Name": "tcping",
+      "Version": null,
+      "Info": "Install failed",
+      "Source": null,
+      "Updated": "2025-10-07T15:59:30.8387377+08:00"
+    },
+    {
+      "Name": "telegram",
+      "Version": "6.1.3",
+      "Info": "",
+      "Source": "self",
+      "Updated": "2025-09-15T13:14:02.6602744+08:00"
+    },
+    {
+      "Name": "typora",
+      "Version": "1.12.1",
+      "Info": "",
+      "Source": "self",
+      "Updated": "2025-09-21T17:14:02.7311066+08:00"
+    },
+    {
+      "Name": "uv",
+      "Version": "0.8.22",
+      "Info": "",
+      "Source": "main",
+      "Updated": "2025-09-30T18:13:34.1342882+08:00"
+    },
+    {
+      "Name": "V2rayn",
+      "Version": "7.14.9",
+      "Info": "",
+      "Source": null,
+      "Updated": "2025-09-21T17:34:06.4451426+08:00"
+    },
+    {
+      "Name": "vlc",
+      "Version": "3.0.21",
+      "Info": "",
+      "Source": "extras",
+      "Updated": "2025-05-15T21:46:58.3343877+08:00"
+    },
+    {
+      "Name": "vs-buildtools",
+      "Version": "17.9.0",
+      "Info": "",
+      "Source": "self",
+      "Updated": "2025-10-03T06:06:27.1671117+08:00"
+    },
+    {
+      "Name": "weixin",
+      "Version": "4.1.1",
+      "Info": "",
+      "Source": "self",
+      "Updated": "2025-09-30T18:04:37.3940427+08:00"
+    },
+    {
+      "Name": "yt-dlp",
+      "Version": "2025.09.26",
+      "Info": "",
+      "Source": "main",
+      "Updated": "2025-09-30T18:13:36.0617252+08:00"
+    }
+  ],
+  "buckets": [
+    {
+      "Name": "main",
+      "Source": "https://github.com/ScoopInstaller/Main",
+      "Updated": "2025-10-07T12:30:09+08:00",
+      "Manifests": 1404
+    },
+    {
+      "Name": "extras",
+      "Source": "https://github.com/ScoopInstaller/Extras",
+      "Updated": "2025-10-07T12:29:40+08:00",
+      "Manifests": 2193
+    },
+    {
+      "Name": "sysinternals",
+      "Source": "https://github.com/niheaven/scoop-sysinternals",
+      "Updated": "2025-09-17T04:34:13+08:00",
+      "Manifests": 75
+    },
+    {
+      "Name": "nerd-fonts",
+      "Source": "https://github.com/matthewjberger/scoop-nerd-fonts",
+      "Updated": "2025-10-02T03:18:41+08:00",
+      "Manifests": 367
+    },
+    {
+      "Name": "nonportable",
+      "Source": "https://github.com/ScoopInstaller/Nonportable",
+      "Updated": "2025-10-04T04:34:25+08:00",
+      "Manifests": 128
+    },
+    {
+      "Name": "java",
+      "Source": "https://github.com/ScoopInstaller/Java",
+      "Updated": "2025-10-05T12:21:20+08:00",
+      "Manifests": 322
+    },
+    {
+      "Name": "self",
+      "Source": "https://github.com/bakamake/self-scoop-bucket.git",
+      "Updated": "2025-10-07T14:54:36+08:00",
+      "Manifests": 39
+    }
+  ]
+}
