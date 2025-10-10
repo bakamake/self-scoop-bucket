@@ -10,6 +10,7 @@
             "npm config set https-proxy http://127.0.0.1:10808",
             "npm install -g @anthropic-ai/claude-code",
             "$env:CLAUDE_CODE_GIT_BASH_PATH=\"$env:scoop\\apps\\git\\current\\git-bash.exe\"",
+            
             "mv \"C:/Users/bakam/.local\" \"$dir/\""
         ]
     },
