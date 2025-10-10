@@ -4,6 +4,7 @@
     "installer": {
         "script": [
             "$env:CLAUDE_CODE_GIT_BASH_PATH=\"$env:scoop\\apps\\git\\current\\git-bash.exe\"",
+            "Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Bypass -Force",
             "iex \"$dir/install.ps1\"",
             "mv \"C:/Users/bakam/.local\" \"$dir/\""
         ]
