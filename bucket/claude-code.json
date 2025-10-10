@@ -1,11 +1,15 @@
 {
     "url": "https://claude.ai/install.ps1",
+    "depends": "nvm",
     "version": "2.0.1",
     "installer": {
         "script": [
+            "nvm install latest",
+            "nvm use latest",
+            "npm config set proxy http://127.0.0.1:10808",
+            "npm config set https-proxy http://127.0.0.1:10808",
+            "npm install -g @anthropic-ai/claude-code",
             "$env:CLAUDE_CODE_GIT_BASH_PATH=\"$env:scoop\\apps\\git\\current\\git-bash.exe\"",
-            "Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Bypass -Force",
-            "iex \"$dir/install.ps1\"",
             "mv \"C:/Users/bakam/.local\" \"$dir/\""
         ]
     },
