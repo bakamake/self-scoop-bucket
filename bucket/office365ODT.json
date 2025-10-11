@@ -3,7 +3,7 @@
     "description": "Microsoft Office Deployment Tool (ODT) for customizing and managing Office installations.",
     "homepage": "https://www.microsoft.com/en-us/download/details.aspx?id=49117",
     "license": "Proprietary",
-    "note": [
+    "notes": [
         "odt /extract:C:\\\\user\\bakam\\scoop\\apps\\office365ODT\\current /quiet",
         "mv $env:scoop\\buckets\\self\\config\\configuration-Office365-x64.xml $dir\\configuration-Office365-x64.xml -force"
     ],

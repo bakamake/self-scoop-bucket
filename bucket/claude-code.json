@@ -15,5 +15,5 @@
         ]
     },
     "bin": ".local/bin/claude.exe",
-    "note": "You need to cd ~/.claude/settings.json and set your self ANTHROPIC_AUTH_TOKEN and ANTHROPIC_BASE_URL in env"
+    "notes": "You need to cd ~/.claude/settings.json and set your self ANTHROPIC_AUTH_TOKEN and ANTHROPIC_BASE_URL in env"
 }
