@@ -7,7 +7,7 @@
     "installer": {
         "script": [
             "Get-Item $dir\\*.exe | Ren -NewName ODT.exe",
-            "$dir\\officedeploymenttool_19231.20072.exe /extract:$dir",
+            "start $dir\\officedeploymenttool_19231.20072.exe RunAs /extract:$dir",
             "mv $env:scoop\\buckets\\self\\config\\configuration-Office365-x64.xml $dir\\configuration-Office365-x64.xml -force"
         ]
     },
