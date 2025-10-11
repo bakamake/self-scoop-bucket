@@ -8,9 +8,7 @@
     "try {",
     "Rename-Item officedeploymenttool_19231-20072.exe ODT.exe -ErrorAction Stop",
         "} catch {",
-    "Write-Error \"重命名失败: $_\"}",
-        "$dir\\ODT.exe \\extract:dir",
-        "mv $env:scoop\\buckets\\self\\config\\configuration-Office365-x64.xml $dir\\configuration-Office365-x64.xml -force"
+    "Write-Error \"重命名失败: $_\"}"
         ],
     "note": [
         "ODT.exe",
