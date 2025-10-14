@@ -6,7 +6,7 @@
     "homepage": "https://github.com/YerongAI/Office-Tool",
     "installer":{
         "script": [
-        "mv \"$dir\\Office Tool\" \"$dir\\\""
+        "mv $dir\\Office Tool $dir\\"
     ]
     },
     "bin": "Office Tool Plus.exe",
