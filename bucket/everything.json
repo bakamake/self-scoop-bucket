@@ -11,7 +11,8 @@
         "64bit": {
             "url": "https://www.voidtools.com/Everything-1.4.1.1029.x64.zip",
             "hash": "d23ae40115cd82fd78b247fb7bce3058be96c4c7df150f887d875958e15bf0a5"
-        },
+        }
+    },
     "pre_install": [
         "# for arm64",
         "if ($architecture -eq 'arm64') { Rename-Item \"$dir\\EverythingARM64.exe\" -NewName 'Everything.exe' }",
