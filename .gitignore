@@ -1,2 +1,6 @@
 # Ignore Claude's local configuration folder
 .claude/
+.git/
+.github/
+.vscode/
+.gitignore
