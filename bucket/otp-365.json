@@ -9,5 +9,10 @@
         "mv \"$dir\\Office Tool\\*\" \"$dir\\\""
     ]
     },
-    "shortcuts": "Office Tool Plus.exe"
+    "shortcuts": [
+        [
+            "Office Tool Plus.exe",
+            "Office Tool Plus"
+        ]
+    ]
 }
