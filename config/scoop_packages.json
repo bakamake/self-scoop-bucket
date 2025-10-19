@@ -85,13 +85,6 @@
       "Updated": "2025-05-20T08:02:29.3858284+08:00"
     },
     {
-      "Name": "ente",
-      "Version": "4.4.4",
-      "Info": "",
-      "Source": "self",
-      "Updated": "2025-10-06T04:17:22.0793072+08:00"
-    },
-    {
       "Name": "es",
       "Version": "1.1.0.30",
       "Info": "",
@@ -162,13 +155,6 @@
       "Updated": "2025-09-30T18:13:19.9662415+08:00"
     },
     {
-      "Name": "LGPO",
-      "Version": "latest",
-      "Info": "",
-      "Source": "self",
-      "Updated": "2025-06-19T15:31:31.6305535+08:00"
-    },
-    {
       "Name": "localsend",
       "Version": "1.17.0",
       "Info": "",
@@ -181,13 +167,6 @@
       "Info": "",
       "Source": "nerd-fonts",
       "Updated": "2025-09-15T11:19:50.9193229+08:00"
-    },
-    {
-      "Name": "mingit",
-      "Version": "2.51.0.2",
-      "Info": "",
-      "Source": "main",
-      "Updated": "2025-09-30T18:13:25.574145+08:00"
     },
     {
       "Name": "monitoroff",
@@ -321,13 +300,6 @@
       "Info": "",
       "Source": "extras",
       "Updated": "2025-09-19T11:47:30.3899056+08:00"
-    },
-    {
-      "Name": "tcping",
-      "Version": null,
-      "Info": "Install failed",
-      "Source": null,
-      "Updated": "2025-10-07T15:59:30.8387377+08:00"
     },
     {
       "Name": "telegram",

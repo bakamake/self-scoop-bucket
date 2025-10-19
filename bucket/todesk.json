@@ -1,0 +1,9 @@
+{
+    "url": "https://dl.todesk.com/windows/ToDesk_Lite.exe",
+    "installer":{"script":[
+        "mv $dir/ToDesk_Lite.exe $dir/todesk.exe"
+    ]},
+    "bin": "todesk.exe",
+    "shortcuts": "todesk"
+
+}
