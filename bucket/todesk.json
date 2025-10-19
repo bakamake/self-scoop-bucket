@@ -8,6 +8,6 @@
         "mv $dir/ToDesk_Lite.exe $dir/todesk.exe"
     ]},
     "bin": "todesk.exe",
-    "shortcuts": "todesk"
+    "shortcuts": [["todesk.exe","todesk"]]
 
 }
