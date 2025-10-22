@@ -1,0 +1,8 @@
+{
+    "homepage": "https://sandboxie-plus.com/",
+    "license": "https://github.com/sandboxie-plus/Sandboxie/blob/v1.16.4/LICENSE.Plus",
+    "description": "Sandboxie-Plus run applications in an isolated space.",
+    "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/v1.16.4/Sandboxie-Plus-x64-v1.16.4.exe",
+    "version": "1.16.4",
+    "innosetup": "true"
+}
