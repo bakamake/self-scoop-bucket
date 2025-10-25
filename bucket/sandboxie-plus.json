@@ -4,5 +4,14 @@
     "description": "Sandboxie-Plus run applications in an isolated space.",
     "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/v1.16.4/Sandboxie-Plus-x64-v1.16.4.exe",
     "version": "1.16.4",
-    "innosetup": "true"
+    "innosetup": "true",
+    "installer": {
+        "script": [
+            "7z x \"$dir\\troubleshooting.7z\" -o\"$dir\\troubleshooting\"",
+            "7z x \"$dir\\translations.7z\" -o\"$dir\\translations\"",
+            "",
+            "  ",
+            "  ; Silent install"
+        ]
+    }
 }

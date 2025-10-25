@@ -1,5 +1,5 @@
 {
-    "version": "nightly",
+    "version": "7.15.4",
     "description": "A V2Ray client for Windows, support Xray & v2fly core",
     "homepage": "https://github.com/2dust/v2rayN",
     "hash": "",
@@ -17,5 +17,11 @@
             "v2rayN.exe",
             "v2rayN"
         ]
-    ]
+    ],
+    "checkver": {
+        "github": "https://github.com/2dust/v2rayN"
+    },
+    "autoupdate": {
+        "github": "https://github.com/2dust/v2rayN"
+    }
 }
