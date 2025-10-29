@@ -7,7 +7,6 @@
     "installer": {
         "script": [
         "innoextract $dir\\iflyrec_meeting_v25.10.2400_JS10010016.exe",
-        "Move-Item $dir\\app\\* $dir",
         "Remove-Item  -Recurse -Force $dir\\app $dir\\Drive $dir\\download $dir\\.rsrc $dir\\iflyrec_meeting_v25.10.2400_JS10010016.exe $dir\\tmp",
         "Move-Item $dir\\iflyrecClient.exe $dir\\iflyrec.exe"
         ]
