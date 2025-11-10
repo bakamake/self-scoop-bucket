@@ -1,0 +1,6 @@
+{
+    "homepage": "https://docs.microsoft.com/en-us/sysinternals/downloads/disk2vhd",
+    "description": "Disk2vhd - Create VHD (Virtual Hard Disk - Microsoft's Virtual Machine Disk Format) versions of physical disks for use in Microsoft Virtual PC or Microsoft Hyper-V virtual machines (VMs).",
+    "url": "https://download.sysinternals.com/files/Disk2vhd.zip",
+    "version": "2.01"
+}
