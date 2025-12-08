@@ -9,7 +9,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/ZGGSONG/STranslate/releases/download/2.0.0/STranslate-win-Portable.zip",
-            "hash": "22149f61ac13ffd00ae49b89c5922a8ce2f7a4f60e7fa621ff9ead69e059549d"
+            "hash": "ea9cb228a1661b50c800a6604065ea05665e92abc4fa3187996521b6a631fc5b"
         }
     },
     "shortcuts": [
@@ -29,8 +29,7 @@
             }
         },
         "hash": {
-            "url": "$baseurl/releases.win.json",
-            "jsonpath": "$.Assets[?(@.FileName == 'STranslate-win-Portable.zip')].SHA256"
+            "mode": "download"
         }
     }
 }
