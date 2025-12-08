@@ -1,12 +1,12 @@
 {
-    "version": "0.57.0",
+    "version": "0.66.0",
     "description": "OpenAI Codex CLI - 一个在终端中运行的轻量级编码代理",
     "homepage": "https://github.com/openai/codex",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/openai/codex/releases/download/rust-v0.57.0/codex-x86_64-pc-windows-msvc.exe.zip",
-            "hash": "e11109c2b06c2cb693b2def6ade39ebf30c2ecf0e684ae3c3abc6f2cd039f66e"
+            "url": "https://github.com/openai/codex/releases/download/rust-v0.66.0/codex-x86_64-pc-windows-msvc.exe.zip",
+            "hash": "25be986486cbd312a416239f2f0e0ead075dad958e44b735dd8603ea8ab6c0fc"
         }
     },
     "bin": [
