@@ -30,7 +30,7 @@
         },
         "hash": {
             "url": "$baseurl/releases.win.json",
-            "jsonpath": "$.Assets[0].SHA256"
+            "jsonpath": "$.Assets[?(@.FileName == 'STranslate-win-Portable.zip')].SHA256"
         }
     }
 }
