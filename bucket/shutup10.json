@@ -1,0 +1,8 @@
+{
+    "version": "2.1.1015",
+    "description": "O&O ShutUp10++ is entirely free and does not have to be installed – it can be simply run directly and immediately on your PC. And it will not install or download retrospectively unwanted or unnecessary software.",
+    "homepage": "https://www.oo-software.com/en/shutup10",
+    "license": "MIT",
+    "url": "https://dl5.oo-software.com/files/ooshutup10/OOSU10.exe",
+    "bin": "OOSU10.exe"
+}
