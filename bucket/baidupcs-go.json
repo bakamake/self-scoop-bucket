@@ -1,0 +1,23 @@
+{
+    "homepage": "https://github.com/qjfoidnh/BaiduPCS-Go",
+    "description": "第三方百度网盘 iikira/BaiduPCS-Go 原版基础上集成了分享链接/秒传链接转存功能",
+    "version": "4.0.1",
+    "license": "Proprietary",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/qjfoidnh/BaiduPCS-Go/releases/download/v4.0.1/BaiduPCS-Go-v4.0.1-windows-x64.zip",
+            "hash": "bb3bc2409e55820d681daef880a6949748fbc81d740952c2b2c05c28a075a4ee"
+        }
+    },
+
+    "checkver": {
+        "github": "https://github.com/qjfoidnh/BaiduPCS-Go"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/qjfoidnh/BaiduPCS-Go/releases/download/v$version/BaiduPCS-Go-v$version-windows-x64.zip"
+            }
+        }
+    }
+}
