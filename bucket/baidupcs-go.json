@@ -11,7 +11,7 @@
     },
     "installer": {
         "script": [
-            "Get-ChildItem -Path $dir -Recurse -Force|? Extension -EQ .exe| MV $_.fullname \"$dir\\BaiduPCS-Go.exe\"",
+            "Get-ChildItem -Path $dir -Recurse -Force|? Extension -EQ .exe|foreach-object {move-item $_.fullname \"$dir\\BaiduPCS-Go.exe\"}",
             "Get-ChildItem -Path $dir -Force|? Extension -NE .exe| Remove-Item -Force"
         ]
     },
