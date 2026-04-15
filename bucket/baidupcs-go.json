@@ -9,7 +9,13 @@
             "hash": "bb3bc2409e55820d681daef880a6949748fbc81d740952c2b2c05c28a075a4ee"
         }
     },
-
+    "installer": {
+        "script": [
+            "Get-ChildItem -Path $dir -Recurse -Force|? Extension -EQ .exe| MV $_ \"$dir\\BaiduPCS-Go.exe\"",
+            "Get-ChildItem -Path $dir -Recurse -Force|? Extension -NE .exe| Remove-Item "
+        ]
+    },
+    "bin": "BaiduPCS-Go.exe",
     "checkver": {
         "github": "https://github.com/qjfoidnh/BaiduPCS-Go"
     },
